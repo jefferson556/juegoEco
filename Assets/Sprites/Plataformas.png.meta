@@ -153,6 +153,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -160,12 +173,12 @@ TextureImporter:
       name: Plataformas_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 858
-        width: 451
-        height: 105
+        x: 32
+        y: 859
+        width: 449
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +195,12 @@ TextureImporter:
       name: Plataformas_1
       rect:
         serializedVersion: 2
-        x: 508
-        y: 866
-        width: 482
-        height: 97
+        x: 509
+        y: 867
+        width: 480
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +217,12 @@ TextureImporter:
       name: Plataformas_2
       rect:
         serializedVersion: 2
-        x: 1014
-        y: 859
-        width: 461
-        height: 104
+        x: 1015
+        y: 860
+        width: 459
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +239,12 @@ TextureImporter:
       name: Plataformas_3
       rect:
         serializedVersion: 2
-        x: 31
-        y: 721
-        width: 449
-        height: 102
+        x: 32
+        y: 722
+        width: 447
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +261,12 @@ TextureImporter:
       name: Plataformas_4
       rect:
         serializedVersion: 2
-        x: 513
-        y: 716
-        width: 967
-        height: 103
+        x: 514
+        y: 717
+        width: 965
+        height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +283,12 @@ TextureImporter:
       name: Plataformas_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 543
-        width: 191
-        height: 133
+        x: 33
+        y: 544
+        width: 189
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +305,12 @@ TextureImporter:
       name: Plataformas_6
       rect:
         serializedVersion: 2
-        x: 287
-        y: 542
-        width: 426
-        height: 130
+        x: 288
+        y: 543
+        width: 424
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +327,12 @@ TextureImporter:
       name: Plataformas_7
       rect:
         serializedVersion: 2
-        x: 741
-        y: 561
-        width: 532
-        height: 112
+        x: 742
+        y: 562
+        width: 530
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +349,12 @@ TextureImporter:
       name: Plataformas_8
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 541
-        width: 189
-        height: 131
+        x: 1315
+        y: 543
+        width: 187
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +371,12 @@ TextureImporter:
       name: Plataformas_9
       rect:
         serializedVersion: 2
-        x: 30
-        y: 339
-        width: 190
-        height: 173
+        x: 31
+        y: 340
+        width: 188
+        height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +393,12 @@ TextureImporter:
       name: Plataformas_10
       rect:
         serializedVersion: 2
-        x: 396
-        y: 378
-        width: 541
-        height: 135
+        x: 397
+        y: 379
+        width: 539
+        height: 133
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +415,12 @@ TextureImporter:
       name: Plataformas_11
       rect:
         serializedVersion: 2
-        x: 985
-        y: 398
-        width: 182
-        height: 115
+        x: 986
+        y: 399
+        width: 180
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +437,12 @@ TextureImporter:
       name: Plataformas_12
       rect:
         serializedVersion: 2
-        x: 1224
-        y: 396
-        width: 276
-        height: 118
+        x: 1225
+        y: 397
+        width: 274
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +459,12 @@ TextureImporter:
       name: Plataformas_13
       rect:
         serializedVersion: 2
-        x: 31
-        y: 72
-        width: 206
-        height: 191
+        x: 32
+        y: 73
+        width: 204
+        height: 189
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +481,12 @@ TextureImporter:
       name: Plataformas_14
       rect:
         serializedVersion: 2
-        x: 302
-        y: 244
-        width: 850
-        height: 96
+        x: 303
+        y: 245
+        width: 848
+        height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -490,12 +503,12 @@ TextureImporter:
       name: Plataformas_15
       rect:
         serializedVersion: 2
-        x: 1208
-        y: 248
-        width: 289
-        height: 89
+        x: 1210
+        y: 249
+        width: 286
+        height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -512,12 +525,12 @@ TextureImporter:
       name: Plataformas_16
       rect:
         serializedVersion: 2
-        x: 401
-        y: 73
-        width: 201
-        height: 124
+        x: 402
+        y: 74
+        width: 199
+        height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -534,12 +547,12 @@ TextureImporter:
       name: Plataformas_17
       rect:
         serializedVersion: 2
-        x: 634
-        y: 72
-        width: 453
-        height: 123
+        x: 635
+        y: 73
+        width: 451
+        height: 121
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -556,12 +569,12 @@ TextureImporter:
       name: Plataformas_18
       rect:
         serializedVersion: 2
-        x: 1112
-        y: 75
-        width: 174
-        height: 118
+        x: 1113
+        y: 76
+        width: 172
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -578,12 +591,12 @@ TextureImporter:
       name: Plataformas_19
       rect:
         serializedVersion: 2
-        x: 1324
-        y: 74
-        width: 178
-        height: 119
+        x: 1325
+        y: 75
+        width: 176
+        height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -600,7 +613,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4eef118a733e7ea4f8fed686e15c6b44
     internalID: 0
     vertices: []
     indices: 
@@ -608,7 +621,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Plataformas_0: -8328390875483262479
       Plataformas_1: -5655046417607356049
