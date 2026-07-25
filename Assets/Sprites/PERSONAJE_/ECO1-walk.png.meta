@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: 577bb7e5b35a9bc4d9d7da1f4a70ac19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1341685693917182124
+    second: ECO1-walk_0
+  - first:
+      213: -3576623292438536432
+    second: ECO1-walk_1
+  - first:
+      213: 8393020565083346789
+    second: ECO1-walk_2
+  - first:
+      213: -4045831744122532223
+    second: ECO1-walk_3
+  - first:
+      213: 4939282156898157838
+    second: ECO1-walk_4
+  - first:
+      213: 805913385010290941
+    second: ECO1-walk_5
+  - first:
+      213: -1087481409851449105
+    second: ECO1-walk_6
+  - first:
+      213: 3588767449511707347
+    second: ECO1-walk_7
+  - first:
+      213: 1992852383711619494
+    second: ECO1-walk_8
+  - first:
+      213: 2426239439631026866
+    second: ECO1-walk_9
+  - first:
+      213: -1036093768654398533
+    second: ECO1-walk_10
+  - first:
+      213: 3366855192787808864
+    second: ECO1-walk_11
+  - first:
+      213: -6768406623694978101
+    second: ECO1-walk_12
+  - first:
+      213: -8347657337749043065
+    second: ECO1-walk_13
+  - first:
+      213: -8157308992039839066
+    second: ECO1-walk_14
+  - first:
+      213: -8626299922836828690
+    second: ECO1-walk_15
+  - first:
+      213: 4140418981623760819
+    second: ECO1-walk_16
+  - first:
+      213: 8735127295111563599
+    second: ECO1-walk_17
+  - first:
+      213: -971252368820158673
+    second: ECO1-walk_18
+  - first:
+      213: -6046388582659336801
+    second: ECO1-walk_19
+  - first:
+      213: 3530615058451133225
+    second: ECO1-walk_20
+  - first:
+      213: 7850314303735860855
+    second: ECO1-walk_21
+  - first:
+      213: 3435180388118873711
+    second: ECO1-walk_22
+  - first:
+      213: -2895167850236414715
+    second: ECO1-walk_23
+  - first:
+      213: 3664170203474272855
+    second: ECO1-walk_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ECO1-walk_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1063
+        width: 99
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca83822b700ae9210800000000000000
+      internalID: 1341685693917182124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1062
+        width: 95
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f10d6b0184d5ec0800000000000000
+      internalID: -3576623292438536432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_2
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1063
+        width: 85
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567575e5cbff97470800000000000000
+      internalID: 8393020565083346789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_3
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1063
+        width: 87
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ec396e6715ad7c0800000000000000
+      internalID: -4045831744122532223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1063
+        width: 101
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e050757c3fadb8440800000000000000
+      internalID: 4939282156898157838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 807
+        width: 116
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0654924fd2f2b00800000000000000
+      internalID: 805913385010290941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 808
+        width: 111
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0a6f16b6d78e0f0800000000000000
+      internalID: -1087481409851449105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_7
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 808
+        width: 97
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d241a13bfcddc130800000000000000
+      internalID: 3588767449511707347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_8
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 809
+        width: 81
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9ebe43fa808ab10800000000000000
+      internalID: 1992852383711619494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_9
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 809
+        width: 72
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba00436aebbba120800000000000000
+      internalID: 2426239439631026866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 552
+        width: 81
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbdb55f43e0f91f0800000000000000
+      internalID: -1036093768654398533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_11
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 552
+        width: 98
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062fb40a5f879be20800000000000000
+      internalID: 3366855192787808864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_12
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 551
+        width: 100
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3824b490ac112a0800000000000000
+      internalID: -6768406623694978101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_13
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 550
+        width: 92
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78809cc01e9272c80800000000000000
+      internalID: -8347657337749043065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_14
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 551
+        width: 83
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa9d56e0ba6bce80800000000000000
+      internalID: -8157308992039839066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 295
+        width: 87
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedc45d9ce9394880800000000000000
+      internalID: -8626299922836828690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 295
+        width: 101
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b708fc7029b57930800000000000000
+      internalID: 4140418981623760819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_17
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 295
+        width: 116
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4981f48ef7693970800000000000000
+      internalID: 8735127295111563599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_18
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 296
+        width: 111
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fb731dd1b6582f0800000000000000
+      internalID: -971252368820158673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_19
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 296
+        width: 97
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95dc948e99e61ca0800000000000000
+      internalID: -6046388582659336801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_20
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 41
+        width: 81
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923ff9d80b34ff030800000000000000
+      internalID: 3530615058451133225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 40
+        width: 73
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e0859344be1fc60800000000000000
+      internalID: 7850314303735860855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_22
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 40
+        width: 81
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66c635dc563caf20800000000000000
+      internalID: 3435180388118873711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_23
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 40
+        width: 99
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505f681fd2c42d7d0800000000000000
+      internalID: -2895167850236414715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ECO1-walk_24
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 39
+        width: 99
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752a7aee26fb9d230800000000000000
+      internalID: 3664170203474272855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4234eb7811ff48c4e893099de205e44e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ECO1-walk_0: 1341685693917182124
+      ECO1-walk_1: -3576623292438536432
+      ECO1-walk_10: -1036093768654398533
+      ECO1-walk_11: 3366855192787808864
+      ECO1-walk_12: -6768406623694978101
+      ECO1-walk_13: -8347657337749043065
+      ECO1-walk_14: -8157308992039839066
+      ECO1-walk_15: -8626299922836828690
+      ECO1-walk_16: 4140418981623760819
+      ECO1-walk_17: 8735127295111563599
+      ECO1-walk_18: -971252368820158673
+      ECO1-walk_19: -6046388582659336801
+      ECO1-walk_2: 8393020565083346789
+      ECO1-walk_20: 3530615058451133225
+      ECO1-walk_21: 7850314303735860855
+      ECO1-walk_22: 3435180388118873711
+      ECO1-walk_23: -2895167850236414715
+      ECO1-walk_24: 3664170203474272855
+      ECO1-walk_3: -4045831744122532223
+      ECO1-walk_4: 4939282156898157838
+      ECO1-walk_5: 805913385010290941
+      ECO1-walk_6: -1087481409851449105
+      ECO1-walk_7: 3588767449511707347
+      ECO1-walk_8: 1992852383711619494
+      ECO1-walk_9: 2426239439631026866
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
