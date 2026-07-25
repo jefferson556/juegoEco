@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,12 +103,12 @@ TextureImporter:
       name: Plataformas3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1536
-        height: 1024
+        x: 30
+        y: 781
+        width: 150
+        height: 218
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +121,1111 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Plataformas3_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 782
+        width: 93
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5ee92f5d826c04998ec6ee32a10895
+      internalID: 623035406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 779
+        width: 75
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9c9020af4ddb54a841f2896e97b6d3
+      internalID: -339702449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_3
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 779
+        width: 74
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105a90c6cf8f3ba4096d021ef8ccb002
+      internalID: -1083589690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_4
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 782
+        width: 245
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec86a74a219d8044a1c0e312aeec972
+      internalID: 1333755015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_5
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 776
+        width: 139
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ef977b482d22e49810568c927bee4d
+      internalID: 1792135786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_6
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 772
+        width: 206
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5f4c07daa718843bd9d07d44cbda99
+      internalID: -2112503039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_7
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 775
+        width: 116
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8d4581f47151d44872c6e6666b1932
+      internalID: 1405051089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 568
+        width: 217
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625648d86befdbe458c1c7566932dfa8
+      internalID: 1759402703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_9
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 569
+        width: 112
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2d8d72269e4e34983c83ce85d02669
+      internalID: -396598519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_10
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 568
+        width: 113
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc2241f91bd09549b400ad35bf6eef0
+      internalID: 560819698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_11
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 568
+        width: 167
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929ee6acb220ec34b8e1fc99a4242570
+      internalID: 951391619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_12
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 569
+        width: 95
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ba2898ec85d314386425ecda80f0ce
+      internalID: 80078032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_13
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 567
+        width: 103
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2a6f9ea28f7864e9ddd4ba064c3cc5
+      internalID: -906726137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_14
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 568
+        width: 200
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c5004faddcfb643960eada7ffdfde8
+      internalID: 1951209591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_15
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 568
+        width: 170
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0591bf09e8312cd4c8a8a5e71950e47b
+      internalID: -1303125357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 368
+        width: 152
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda0ad17ed2ca7e4b81b6dc99e2cf559
+      internalID: 819297278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 367
+        width: 122
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e089b23634ffa6a4a9e1cee06c61e389
+      internalID: 236950057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_18
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 369
+        width: 111
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02a9f8708c09e44faa94de6381b6a5d
+      internalID: 218784753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_19
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 379
+        width: 183
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dea3efa950e4c4191a1a74a3690f80
+      internalID: -691440070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_20
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 379
+        width: 134
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7417edabfc3d77b4b8d905b2976538f6
+      internalID: -1161132550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_21
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 495
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2179f29061cea4696c704eb89db23a
+      internalID: 1370975186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_22
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 512
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467d0761df9ecf043ae592caf8de8f40
+      internalID: 461589233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_23
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 378
+        width: 134
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668a5bdab55d276479ddd3f6f184d286
+      internalID: -1230878287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_24
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 402
+        width: 167
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfa38417607a274481c97e8f54519ae
+      internalID: 1120734914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_25
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 361
+        width: 53
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de1ecf0e60672743961b851315f20a7
+      internalID: -2113095245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_26
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 384
+        width: 16
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f7eae1cc4bf7645a9d2c9c70ea5f4a
+      internalID: -484610767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_27
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 383
+        width: 182
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352c8f88ded95f445b7da40600203e9a
+      internalID: -235144325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_28
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 205
+        width: 145
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cea812527beee4cae6d3c94e85837c
+      internalID: 68157536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_29
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 199
+        width: 126
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e77e39330fe87e42b5f20ab3f88d661
+      internalID: 461724221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_30
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 204
+        width: 110
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8761bdc625ba7c42a4eb074adfd9d38
+      internalID: 239207607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_31
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 206
+        width: 100
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266758a348e4a4f4f82f1e7d11fefb0e
+      internalID: -1934862780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_34
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 206
+        width: 142
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4097d49ac72e1c04a9a0a5b9463001c1
+      internalID: -1104797458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_35
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 206
+        width: 74
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7d634adc3bcd743b585f7fb867184a
+      internalID: -1482295646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_36
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 200
+        width: 85
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5687f3250cb8be47b33d37db179b4ad
+      internalID: -209626335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_37
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 200
+        width: 115
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd024b2670d08b7438838e7d3bebd21b
+      internalID: 1046072530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_38
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 208
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db289d1a356822641bf0ddfcc792e251
+      internalID: -1879735509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_39
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 263
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606ffdaefbd5a8b48ad10ced853717be
+      internalID: 683573705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_45
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 230
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f80026a399053e45b6dcbf223ae41ec
+      internalID: -1766443087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_48
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 34
+        width: 65
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4461c4f95ab18a7499bca9f4c75bbf81
+      internalID: -760299832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_49
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 35
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a626308229df7484fad664f12998aabb
+      internalID: 1961303297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_50
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fa1c081bcecce4094b6f393a4702a9
+      internalID: -1581902083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_51
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 34
+        width: 89
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6feef438a846034586245fee922f19b
+      internalID: -766197864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_52
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 35
+        width: 96
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aef8639f8f1e974d88a6ecc186d433e
+      internalID: -310617250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_53
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 36
+        width: 77
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7158d3f736b57614398361a0f12327b1
+      internalID: -1789195040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_54
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 35
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70aedd1537559744c98383ce2b38d572
+      internalID: -773537866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_55
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 35
+        width: 89
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33a401d2fcf014479cba8df69c46437
+      internalID: 466092208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_56
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 35
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c443acc7bd1446045bb98e8e99f59777
+      internalID: -241225713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_57
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 34
+        width: 114
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de4414394a24bf4c9f3db9d06b041d6
+      internalID: -908070002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_58
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 33
+        width: 168
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4e533d9b7279747aef0f675e9e0ce9
+      internalID: -959934865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plataformas3_59
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 32
+        width: 181
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f083e409dcec84f4999d5cd124fc7aad
+      internalID: 405491745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f93350ab8571e264b8aed97e2dd7d0fe
     internalID: 0
     vertices: []
     indices: 
@@ -133,9 +1233,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Plataformas3_0: 4905832369205174532
+      Plataformas3_1: 623035406
+      Plataformas3_10: 560819698
+      Plataformas3_11: 951391619
+      Plataformas3_12: 80078032
+      Plataformas3_13: -906726137
+      Plataformas3_14: 1951209591
+      Plataformas3_15: -1303125357
+      Plataformas3_16: 819297278
+      Plataformas3_17: 236950057
+      Plataformas3_18: 218784753
+      Plataformas3_19: -691440070
+      Plataformas3_2: -339702449
+      Plataformas3_20: -1161132550
+      Plataformas3_21: 1370975186
+      Plataformas3_22: 461589233
+      Plataformas3_23: -1230878287
+      Plataformas3_24: 1120734914
+      Plataformas3_25: -2113095245
+      Plataformas3_26: -484610767
+      Plataformas3_27: -235144325
+      Plataformas3_28: 68157536
+      Plataformas3_29: 461724221
+      Plataformas3_3: -1083589690
+      Plataformas3_30: 239207607
+      Plataformas3_31: -1934862780
+      Plataformas3_32: -1021102951
+      Plataformas3_33: 1137221393
+      Plataformas3_34: -1104797458
+      Plataformas3_35: -1482295646
+      Plataformas3_36: -209626335
+      Plataformas3_37: 1046072530
+      Plataformas3_38: -1879735509
+      Plataformas3_39: 683573705
+      Plataformas3_4: 1333755015
+      Plataformas3_40: 1360863576
+      Plataformas3_41: 364989713
+      Plataformas3_42: 295144357
+      Plataformas3_43: -1472620377
+      Plataformas3_44: 1041626186
+      Plataformas3_45: -1766443087
+      Plataformas3_46: -114473646
+      Plataformas3_47: 277034858
+      Plataformas3_48: -760299832
+      Plataformas3_49: 1961303297
+      Plataformas3_5: 1792135786
+      Plataformas3_50: -1581902083
+      Plataformas3_51: -766197864
+      Plataformas3_52: -310617250
+      Plataformas3_53: -1789195040
+      Plataformas3_54: -773537866
+      Plataformas3_55: 466092208
+      Plataformas3_56: -241225713
+      Plataformas3_57: -908070002
+      Plataformas3_58: -959934865
+      Plataformas3_59: 405491745
+      Plataformas3_6: -2112503039
+      Plataformas3_7: 1405051089
+      Plataformas3_8: 1759402703
+      Plataformas3_9: -396598519
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
