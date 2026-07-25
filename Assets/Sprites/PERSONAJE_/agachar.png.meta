@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: 8a3014e5c81664f418876fb36190253b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4959870216637532912
+    second: agachar_0
+  - first:
+      213: -283284256023294208
+    second: agachar_1
+  - first:
+      213: 6448840113218034824
+    second: agachar_2
+  - first:
+      213: 1323607819325055129
+    second: agachar_3
+  - first:
+      213: -8582678927210929025
+    second: agachar_4
+  - first:
+      213: -8834097729344727977
+    second: agachar_5
+  - first:
+      213: -938702468461591239
+    second: agachar_6
+  - first:
+      213: -4890613085453778637
+    second: agachar_7
+  - first:
+      213: -2502135382625972357
+    second: agachar_8
+  - first:
+      213: -554504372520596234
+    second: agachar_9
+  - first:
+      213: -454338742115386440
+    second: agachar_10
+  - first:
+      213: -4115783014711578722
+    second: agachar_11
+  - first:
+      213: 3690682086827001760
+    second: agachar_12
+  - first:
+      213: -188197819712704626
+    second: agachar_13
+  - first:
+      213: -2403120923047436549
+    second: agachar_14
+  - first:
+      213: 4508855914179253321
+    second: agachar_15
+  - first:
+      213: 3808141543158821801
+    second: agachar_16
+  - first:
+      213: -6975844166615660994
+    second: agachar_17
+  - first:
+      213: 272116881141973558
+    second: agachar_18
+  - first:
+      213: 5585864022332429382
+    second: agachar_19
+  - first:
+      213: -9166906400387122911
+    second: agachar_20
+  - first:
+      213: -5414661637794401576
+    second: agachar_21
+  - first:
+      213: 4702653361755546106
+    second: agachar_22
+  - first:
+      213: -1611326662923741496
+    second: agachar_23
+  - first:
+      213: 1494628048993055363
+    second: agachar_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: agachar_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1092
+        width: 109
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa48bafeaff4d440800000000000000
+      internalID: 4959870216637532912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1091
+        width: 110
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f45455872911cf0800000000000000
+      internalID: -283284256023294208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1091
+        width: 109
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c96a16ae1ee7950800000000000000
+      internalID: 6448840113218034824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_3
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1090
+        width: 109
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990acc48c466e5210800000000000000
+      internalID: 1323607819325055129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_4
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1090
+        width: 109
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74ac5a1df234e880800000000000000
+      internalID: -8582678927210929025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 834
+        width: 110
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75492539beaf66580800000000000000
+      internalID: -8834097729344727977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_6
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 834
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9358091141f09f2f0800000000000000
+      internalID: -938702468461591239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_7
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 834
+        width: 113
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33186a37f4d012cb0800000000000000
+      internalID: -4890613085453778637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_8
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 834
+        width: 115
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f84aa5021a64dd0800000000000000
+      internalID: -2502135382625972357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_9
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 834
+        width: 115
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc428906310e48f0800000000000000
+      internalID: -554504372520596234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 578
+        width: 116
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbb38c325dd1b9f0800000000000000
+      internalID: -454338742115386440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 578
+        width: 118
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fa78b872dc1e6c0800000000000000
+      internalID: -4115783014711578722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_12
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 579
+        width: 119
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7883ccdcfe73330800000000000000
+      internalID: 3690682086827001760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_13
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 578
+        width: 121
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f65808413636df0800000000000000
+      internalID: -188197819712704626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_14
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 580
+        width: 125
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfed275b04666aed0800000000000000
+      internalID: -2403120923047436549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 324
+        width: 126
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944d214a09ca29e30800000000000000
+      internalID: 4508855914179253321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_16
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 324
+        width: 130
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3b36e9e8c39d430800000000000000
+      internalID: 3808141543158821801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_17
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 324
+        width: 134
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e368468a0b2d03f90800000000000000
+      internalID: -6975844166615660994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_18
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 324
+        width: 135
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632cad59cd0c6c300800000000000000
+      internalID: 272116881141973558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_19
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 323
+        width: 135
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64452ceabb9f48d40800000000000000
+      internalID: 5585864022332429382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_20
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 67
+        width: 134
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129bbab723b98c080800000000000000
+      internalID: -9166906400387122911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 67
+        width: 134
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d27454bde14bd4b0800000000000000
+      internalID: -5414661637794401576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_22
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 67
+        width: 134
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af16c39115e234140800000000000000
+      internalID: 4702653361755546106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_23
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 67
+        width: 134
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6905fefea63a9e0800000000000000
+      internalID: -1611326662923741496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agachar_24
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 67
+        width: 134
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382f09baa4cfdb410800000000000000
+      internalID: 1494628048993055363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7e15528863faf69429e6d7bc70e15df7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      agachar_0: 4959870216637532912
+      agachar_1: -283284256023294208
+      agachar_10: -454338742115386440
+      agachar_11: -4115783014711578722
+      agachar_12: 3690682086827001760
+      agachar_13: -188197819712704626
+      agachar_14: -2403120923047436549
+      agachar_15: 4508855914179253321
+      agachar_16: 3808141543158821801
+      agachar_17: -6975844166615660994
+      agachar_18: 272116881141973558
+      agachar_19: 5585864022332429382
+      agachar_2: 6448840113218034824
+      agachar_20: -9166906400387122911
+      agachar_21: -5414661637794401576
+      agachar_22: 4702653361755546106
+      agachar_23: -1611326662923741496
+      agachar_24: 1494628048993055363
+      agachar_3: 1323607819325055129
+      agachar_4: -8582678927210929025
+      agachar_5: -8834097729344727977
+      agachar_6: -938702468461591239
+      agachar_7: -4890613085453778637
+      agachar_8: -2502135382625972357
+      agachar_9: -554504372520596234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
