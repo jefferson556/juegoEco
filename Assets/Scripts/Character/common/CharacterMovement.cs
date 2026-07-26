@@ -217,4 +217,20 @@ public class CharacterMovement : MonoBehaviour
         previousInput = horizontalInput;
         previousRunning = isRunning;
     }
+
+    public void SetStats(CharacterStats newStats)
+    {
+        if (newStats != null)
+        {
+            stats = newStats;
+
+            if (showDebugLogs)
+            {
+                Debug.Log(
+                    $"[CharacterMovement:{name}] Estadísticas actualizadas a: {newStats.name}",
+                    this
+                );
+            }
+        }
+    }
 }

@@ -70,6 +70,14 @@ public class CharacterJump : MonoBehaviour
         jumpEnabled = enabled;
     }
 
+    public void SetStats(CharacterStats newStats)
+    {
+        if (newStats != null)
+        {
+            stats = newStats;
+        }
+    }
+
     private void CheckGround()
     {
         if (groundCheck == null)

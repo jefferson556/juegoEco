@@ -849,6 +849,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 2534929995528180366, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
+      propertyPath: stats
+      value: 
+      objectReference: {fileID: 11400000, guid: 9fb928b35fa001645a8a14d8274e19ec, type: 2}
+    - target: {fileID: 2534929995528180366, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
       propertyPath: characterJump
       value: 
       objectReference: {fileID: 737656967}
@@ -927,6 +931,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba71df2f9772f6244943f1ad4faeea7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterJump
+--- !u!114 &737656970 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2534929995528180366, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
+  m_PrefabInstance: {fileID: 737656956}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737656957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c09e17058f4fbf4fbca2e27bb3211fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterMovement
 --- !u!114 &737656974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,6 +961,11 @@ MonoBehaviour:
     m_Bits: 128
   enemyTag: Enemy
   characterAnimation: {fileID: 1716128099}
+  characterMovement: {fileID: 737656970}
+  characterJump: {fileID: 737656967}
+  normalStats: {fileID: 11400000, guid: 9fb928b35fa001645a8a14d8274e19ec, type: 2}
+  penalizedStats: {fileID: 11400000, guid: f744283b6aa09354e989e3bff03924a4, type: 2}
+  penaltyDuration: 10
   showDebugLogs: 1
 --- !u!1 &746965946
 GameObject:
