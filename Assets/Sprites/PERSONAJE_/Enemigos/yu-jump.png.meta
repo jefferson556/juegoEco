@@ -1,0 +1,815 @@
+fileFormatVersion: 2
+guid: 75b7acc17330af84cbb1b61344640d4d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5902578097026897787
+    second: yu-jump_0
+  - first:
+      213: -1769021747966937888
+    second: yu-jump_1
+  - first:
+      213: 4373642194751807563
+    second: yu-jump_2
+  - first:
+      213: -5796559638273039424
+    second: yu-jump_3
+  - first:
+      213: -7131490877023127602
+    second: yu-jump_4
+  - first:
+      213: 3579445229636147048
+    second: yu-jump_5
+  - first:
+      213: 5932937930770497150
+    second: yu-jump_6
+  - first:
+      213: -5173174970671493320
+    second: yu-jump_7
+  - first:
+      213: 6712346891134489686
+    second: yu-jump_8
+  - first:
+      213: 8114720542309964288
+    second: yu-jump_9
+  - first:
+      213: -3403371376606977808
+    second: yu-jump_10
+  - first:
+      213: -4681823044337017117
+    second: yu-jump_11
+  - first:
+      213: 5790177072227611130
+    second: yu-jump_12
+  - first:
+      213: -1888169853529875209
+    second: yu-jump_13
+  - first:
+      213: -3296751787870925283
+    second: yu-jump_14
+  - first:
+      213: 6038763205881512082
+    second: yu-jump_15
+  - first:
+      213: 2847849275757607114
+    second: yu-jump_16
+  - first:
+      213: 2757638121321748861
+    second: yu-jump_17
+  - first:
+      213: -3411547863558966047
+    second: yu-jump_18
+  - first:
+      213: -8504377366020136745
+    second: yu-jump_19
+  - first:
+      213: -6426575613320446452
+    second: yu-jump_20
+  - first:
+      213: 2880819693359117271
+    second: yu-jump_21
+  - first:
+      213: -93692827667852515
+    second: yu-jump_22
+  - first:
+      213: -1650766285778091705
+    second: yu-jump_23
+  - first:
+      213: -8484101946705343720
+    second: yu-jump_24
+  - first:
+      213: 7971921465910900624
+    second: yu-jump_25
+  - first:
+      213: 7945598245422548486
+    second: yu-jump_26
+  - first:
+      213: -489771394352254919
+    second: yu-jump_27
+  - first:
+      213: -4985968898977396735
+    second: yu-jump_28
+  - first:
+      213: 7684920672101176750
+    second: yu-jump_29
+  - first:
+      213: 7200937962329746048
+    second: yu-jump_30
+  - first:
+      213: -8662486458562862680
+    second: yu-jump_31
+  - first:
+      213: 6653688828788871740
+    second: yu-jump_32
+  - first:
+      213: 2239635070165929667
+    second: yu-jump_33
+  - first:
+      213: -171253289688142278
+    second: yu-jump_34
+  - first:
+      213: -5521144759316074066
+    second: yu-jump_35
+  - first:
+      213: -6684024842125906136
+    second: yu-jump_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yu-jump_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1104
+        width: 86
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588e5b37e74d51ea0800000000000000
+      internalID: -5902578097026897787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1101
+        width: 88
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e47d78c71c2377e0800000000000000
+      internalID: -1769021747966937888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_2
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1092
+        width: 106
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4067d0576c42bc30800000000000000
+      internalID: 4373642194751807563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_5
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1088
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867dd6db87ebca130800000000000000
+      internalID: 3579445229636147048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_8
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1088
+        width: 112
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654d4471feb072d50800000000000000
+      internalID: 6712346891134489686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_10
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 834
+        width: 90
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0eb9ac3cbc4c0d0800000000000000
+      internalID: -3403371376606977808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_13
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 872
+        width: 85
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc10cca58fdbc5e0800000000000000
+      internalID: -1888169853529875209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_14
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 890
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ec15347b59f32d0800000000000000
+      internalID: -3296751787870925283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_15
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 898
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2904449142ffdc350800000000000000
+      internalID: 6038763205881512082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 830
+        width: 106
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d795570c249154620800000000000000
+      internalID: 2757638121321748861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 645
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3be947f3abaf720800000000000000
+      internalID: 2880819693359117271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_22
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 644
+        width: 108
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d131bd0aed223bef0800000000000000
+      internalID: -93692827667852515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_23
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 640
+        width: 111
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74181092fcc4719e0800000000000000
+      internalID: -1650766285778091705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_24
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 633
+        width: 112
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b8d6cea3a624a80800000000000000
+      internalID: -8484101946705343720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_25
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 615
+        width: 114
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0973ee01654f1ae60800000000000000
+      internalID: 7971921465910900624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_26
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 320
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606c062b18f644e60800000000000000
+      internalID: 7945598245422548486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_27
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 319
+        width: 115
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9307c72038bf339f0800000000000000
+      internalID: -489771394352254919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_28
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 320
+        width: 113
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1088e4304b74ecab0800000000000000
+      internalID: -4985968898977396735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_29
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 320
+        width: 110
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea595a382a256aa60800000000000000
+      internalID: 7684920672101176750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_30
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 320
+        width: 104
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a2a4eaceedee360800000000000000
+      internalID: 7200937962329746048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_31
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 65
+        width: 103
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1aab5367aa8c780800000000000000
+      internalID: -8662486458562862680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_32
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 65
+        width: 103
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3212fdacb6a65c50800000000000000
+      internalID: 6653688828788871740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_33
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 64
+        width: 105
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce4fbfea38c41f10800000000000000
+      internalID: 2239635070165929667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_34
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 64
+        width: 107
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e65855a069f9df0800000000000000
+      internalID: -171253289688142278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-jump_35
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 64
+        width: 108
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1b47bf714f063b0800000000000000
+      internalID: -5521144759316074066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3c7b5faad78062143bb36472f9f2c7f8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      yu-jump_0: -5902578097026897787
+      yu-jump_1: -1769021747966937888
+      yu-jump_10: -3403371376606977808
+      yu-jump_11: -4681823044337017117
+      yu-jump_12: 5790177072227611130
+      yu-jump_13: -1888169853529875209
+      yu-jump_14: -3296751787870925283
+      yu-jump_15: 6038763205881512082
+      yu-jump_16: 2847849275757607114
+      yu-jump_17: 2757638121321748861
+      yu-jump_18: -3411547863558966047
+      yu-jump_19: -8504377366020136745
+      yu-jump_2: 4373642194751807563
+      yu-jump_20: -6426575613320446452
+      yu-jump_21: 2880819693359117271
+      yu-jump_22: -93692827667852515
+      yu-jump_23: -1650766285778091705
+      yu-jump_24: -8484101946705343720
+      yu-jump_25: 7971921465910900624
+      yu-jump_26: 7945598245422548486
+      yu-jump_27: -489771394352254919
+      yu-jump_28: -4985968898977396735
+      yu-jump_29: 7684920672101176750
+      yu-jump_3: -5796559638273039424
+      yu-jump_30: 7200937962329746048
+      yu-jump_31: -8662486458562862680
+      yu-jump_32: 6653688828788871740
+      yu-jump_33: 2239635070165929667
+      yu-jump_34: -171253289688142278
+      yu-jump_35: -5521144759316074066
+      yu-jump_36: -6684024842125906136
+      yu-jump_4: -7131490877023127602
+      yu-jump_5: 3579445229636147048
+      yu-jump_6: 5932937930770497150
+      yu-jump_7: -5173174970671493320
+      yu-jump_8: 6712346891134489686
+      yu-jump_9: 8114720542309964288
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
