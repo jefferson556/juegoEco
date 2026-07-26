@@ -1,0 +1,1393 @@
+fileFormatVersion: 2
+guid: 26e693634ce3f6b409dcfa0e4652878a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5561542671078353201
+    second: enemigo facil_0
+  - first:
+      213: 1173524670316596961
+    second: enemigo facil_1
+  - first:
+      213: -4694758543478927047
+    second: enemigo facil_2
+  - first:
+      213: 7263438490293012863
+    second: enemigo facil_3
+  - first:
+      213: -895696703369685903
+    second: enemigo facil_4
+  - first:
+      213: -7167481233686620632
+    second: enemigo facil_5
+  - first:
+      213: -6977348693572191458
+    second: enemigo facil_6
+  - first:
+      213: -3839072135651340587
+    second: enemigo facil_7
+  - first:
+      213: -987224493482082508
+    second: enemigo facil_8
+  - first:
+      213: -2459370155501228135
+    second: enemigo facil_9
+  - first:
+      213: 4480298771914068106
+    second: enemigo facil_10
+  - first:
+      213: -4012950461346045401
+    second: enemigo facil_11
+  - first:
+      213: -5688047514533751116
+    second: enemigo facil_12
+  - first:
+      213: -8961222438385035740
+    second: enemigo facil_13
+  - first:
+      213: -8297545278038718782
+    second: enemigo facil_14
+  - first:
+      213: 7516646236979422740
+    second: enemigo facil_15
+  - first:
+      213: 778329070771818011
+    second: enemigo facil_16
+  - first:
+      213: 1710924587924093415
+    second: enemigo facil_17
+  - first:
+      213: -4061035333521480011
+    second: enemigo facil_18
+  - first:
+      213: 750267008733881581
+    second: enemigo facil_19
+  - first:
+      213: 1569919779809505226
+    second: enemigo facil_20
+  - first:
+      213: -8190177411082767150
+    second: enemigo facil_21
+  - first:
+      213: 1195464535227131701
+    second: enemigo facil_22
+  - first:
+      213: 2042208836114885203
+    second: enemigo facil_23
+  - first:
+      213: -7691622191553844774
+    second: enemigo facil_24
+  - first:
+      213: 8900815246708453726
+    second: enemigo facil_25
+  - first:
+      213: 569408752144437011
+    second: enemigo facil_26
+  - first:
+      213: 3673105882436869905
+    second: enemigo facil_27
+  - first:
+      213: -4558016195549480716
+    second: enemigo facil_28
+  - first:
+      213: -1597250667885644492
+    second: enemigo facil_29
+  - first:
+      213: -4403187250077336682
+    second: enemigo facil_30
+  - first:
+      213: 7883840356168867978
+    second: enemigo facil_31
+  - first:
+      213: -8678605008708732941
+    second: enemigo facil_32
+  - first:
+      213: 8525462132379130325
+    second: enemigo facil_33
+  - first:
+      213: 295730545581646074
+    second: enemigo facil_34
+  - first:
+      213: 4279149207467693682
+    second: enemigo facil_35
+  - first:
+      213: 5799022439192712652
+    second: enemigo facil_36
+  - first:
+      213: -7964698869769686092
+    second: enemigo facil_37
+  - first:
+      213: -7543643795716958746
+    second: enemigo facil_38
+  - first:
+      213: 3679718403862200142
+    second: enemigo facil_39
+  - first:
+      213: 2238709438451009176
+    second: enemigo facil_40
+  - first:
+      213: 2869590996392928189
+    second: enemigo facil_41
+  - first:
+      213: 6504379902712041069
+    second: enemigo facil_42
+  - first:
+      213: -4371823543334325415
+    second: enemigo facil_43
+  - first:
+      213: -5061375707875293481
+    second: enemigo facil_44
+  - first:
+      213: -3645505644491452562
+    second: enemigo facil_45
+  - first:
+      213: -1263893001496237481
+    second: enemigo facil_46
+  - first:
+      213: 3375022913606986138
+    second: enemigo facil_47
+  - first:
+      213: -9152338628973237078
+    second: enemigo facil_48
+  - first:
+      213: 472408543250208666
+    second: enemigo facil_49
+  - first:
+      213: -1515244782277571098
+    second: enemigo facil_50
+  - first:
+      213: -37028949552004956
+    second: enemigo facil_51
+  - first:
+      213: 5813551364852005443
+    second: enemigo facil_52
+  - first:
+      213: -7378148353925930480
+    second: enemigo facil_53
+  - first:
+      213: 914208092792419389
+    second: enemigo facil_54
+  - first:
+      213: 8797535812687975503
+    second: enemigo facil_55
+  - first:
+      213: 5958130512103111353
+    second: enemigo facil_56
+  - first:
+      213: -4010727312826880435
+    second: enemigo facil_57
+  - first:
+      213: -6190750213065913798
+    second: enemigo facil_58
+  - first:
+      213: 4457767894330328175
+    second: enemigo facil_59
+  - first:
+      213: 1060080654698268219
+    second: enemigo facil_60
+  - first:
+      213: -8709205699462356495
+    second: enemigo facil_61
+  - first:
+      213: -3427679883719724059
+    second: enemigo facil_62
+  - first:
+      213: 317049226675543755
+    second: enemigo facil_63
+  - first:
+      213: 2311014736281338034
+    second: enemigo facil_64
+  - first:
+      213: 932082435274669491
+    second: enemigo facil_65
+  - first:
+      213: 4997225228578145833
+    second: enemigo facil_66
+  - first:
+      213: -8866719836196349877
+    second: enemigo facil_67
+  - first:
+      213: 6046388284323912675
+    second: enemigo facil_68
+  - first:
+      213: 7498979443910636441
+    second: enemigo facil_69
+  - first:
+      213: 7240879503770477976
+    second: enemigo facil_70
+  - first:
+      213: -4654162488599942682
+    second: enemigo facil_71
+  - first:
+      213: -1545225230675136698
+    second: enemigo facil_72
+  - first:
+      213: -8759534790247704534
+    second: enemigo facil_73
+  - first:
+      213: -5796425889960322361
+    second: enemigo facil_74
+  - first:
+      213: 1606423579915312678
+    second: enemigo facil_75
+  - first:
+      213: -8056563546580371469
+    second: enemigo facil_76
+  - first:
+      213: -4800135836918773305
+    second: enemigo facil_77
+  - first:
+      213: 3156566378748470216
+    second: enemigo facil_78
+  - first:
+      213: -4830698916051263583
+    second: enemigo facil_79
+  - first:
+      213: 6273281277398319400
+    second: enemigo facil_80
+  - first:
+      213: -1109073919727424712
+    second: enemigo facil_81
+  - first:
+      213: -542913591202710192
+    second: enemigo facil_82
+  - first:
+      213: -9102796983586051947
+    second: enemigo facil_83
+  - first:
+      213: 4096153074228697174
+    second: enemigo facil_84
+  - first:
+      213: -5904554736717016084
+    second: enemigo facil_85
+  - first:
+      213: -4037839994462151113
+    second: enemigo facil_86
+  - first:
+      213: -7560820252090679939
+    second: enemigo facil_87
+  - first:
+      213: 727641924893684593
+    second: enemigo facil_88
+  - first:
+      213: 210395736098565077
+    second: enemigo facil_89
+  - first:
+      213: -3367498534934273896
+    second: enemigo facil_90
+  - first:
+      213: 347729123389392489
+    second: enemigo facil_91
+  - first:
+      213: 3193598216116584809
+    second: enemigo facil_92
+  - first:
+      213: 3872831811068874279
+    second: enemigo facil_93
+  - first:
+      213: -1218106440491929026
+    second: enemigo facil_94
+  - first:
+      213: -576672815416094441
+    second: enemigo facil_95
+  - first:
+      213: 6937134703025514021
+    second: enemigo facil_96
+  - first:
+      213: -3689749750885644831
+    second: enemigo facil_97
+  - first:
+      213: -163408684891910450
+    second: enemigo facil_98
+  - first:
+      213: -5044563566123373049
+    second: enemigo facil_99
+  - first:
+      213: -1297901034782926475
+    second: enemigo facil_100
+  - first:
+      213: -1415532959131504791
+    second: enemigo facil_101
+  - first:
+      213: -7995377379214239694
+    second: enemigo facil_102
+  - first:
+      213: 6142137752117142680
+    second: enemigo facil_103
+  - first:
+      213: -7131262421072863357
+    second: enemigo facil_104
+  - first:
+      213: -6455296733138726731
+    second: enemigo facil_105
+  - first:
+      213: -1881654587314651100
+    second: enemigo facil_106
+  - first:
+      213: -5905119991297699778
+    second: enemigo facil_107
+  - first:
+      213: -3270145289310071875
+    second: enemigo facil_108
+  - first:
+      213: -30986038888430611
+    second: enemigo facil_109
+  - first:
+      213: 5635606126909185561
+    second: enemigo facil_110
+  - first:
+      213: 3026620412784505163
+    second: enemigo facil_111
+  - first:
+      213: 4598673643665171810
+    second: enemigo facil_112
+  - first:
+      213: 2123362039499843610
+    second: enemigo facil_113
+  - first:
+      213: -7952167312569926156
+    second: enemigo facil_114
+  - first:
+      213: 8364743863593640248
+    second: enemigo facil_115
+  - first:
+      213: 5230974765305398865
+    second: enemigo facil_116
+  - first:
+      213: -6717181628641358213
+    second: enemigo facil_117
+  - first:
+      213: 2136154720720287697
+    second: enemigo facil_118
+  - first:
+      213: 3847410147250380865
+    second: enemigo facil_119
+  - first:
+      213: -6945059390039686453
+    second: enemigo facil_120
+  - first:
+      213: -1493334494265138932
+    second: enemigo facil_121
+  - first:
+      213: 2148498422334205963
+    second: enemigo facil_122
+  - first:
+      213: -5423237466183478379
+    second: enemigo facil_123
+  - first:
+      213: 3391778690573095220
+    second: enemigo facil_124
+  - first:
+      213: -7386066509410340059
+    second: enemigo facil_125
+  - first:
+      213: -2625505490797073786
+    second: enemigo facil_126
+  - first:
+      213: -2078684288799126745
+    second: enemigo facil_127
+  - first:
+      213: 31684425859327935
+    second: enemigo facil_128
+  - first:
+      213: -3779078073945193932
+    second: enemigo facil_129
+  - first:
+      213: 5381821434182347579
+    second: enemigo facil_130
+  - first:
+      213: 5362488213056699464
+    second: enemigo facil_131
+  - first:
+      213: -5416461593507984971
+    second: enemigo facil_132
+  - first:
+      213: 5359169572660464065
+    second: enemigo facil_133
+  - first:
+      213: 5292720204071387248
+    second: enemigo facil_134
+  - first:
+      213: -6412000049504233304
+    second: enemigo facil_135
+  - first:
+      213: 4356041516314655086
+    second: enemigo facil_136
+  - first:
+      213: 7279792841338492264
+    second: enemigo facil_137
+  - first:
+      213: -8132895528776896629
+    second: enemigo facil_138
+  - first:
+      213: -3477009768029658922
+    second: enemigo facil_139
+  - first:
+      213: 6588268292718821564
+    second: enemigo facil_140
+  - first:
+      213: 8466147614928706108
+    second: enemigo facil_141
+  - first:
+      213: -2726480832041957879
+    second: enemigo facil_142
+  - first:
+      213: -2966079988780668896
+    second: enemigo facil_143
+  - first:
+      213: -1882265126944886900
+    second: enemigo facil_144
+  - first:
+      213: -939464651809847430
+    second: enemigo facil_145
+  - first:
+      213: 3486468482877940971
+    second: enemigo facil_146
+  - first:
+      213: -5955220979311172981
+    second: enemigo facil_147
+  - first:
+      213: -1836689919369506089
+    second: enemigo facil_148
+  - first:
+      213: 7993104440222637687
+    second: enemigo facil_149
+  - first:
+      213: 2199763738819612008
+    second: enemigo facil_150
+  - first:
+      213: -7313665249478766068
+    second: enemigo facil_151
+  - first:
+      213: -1496282288472521264
+    second: enemigo facil_152
+  - first:
+      213: 6491352101558594205
+    second: enemigo facil_153
+  - first:
+      213: 1629114800806598214
+    second: enemigo facil_154
+  - first:
+      213: -5700255707904701339
+    second: enemigo facil_155
+  - first:
+      213: 8776551130116980138
+    second: enemigo facil_156
+  - first:
+      213: -6961199455628668425
+    second: enemigo facil_157
+  - first:
+      213: -4702401406521465747
+    second: enemigo facil_158
+  - first:
+      213: -1491279846272442455
+    second: enemigo facil_159
+  - first:
+      213: 5607891970723043449
+    second: enemigo facil_160
+  - first:
+      213: -7652560704684772551
+    second: enemigo facil_161
+  - first:
+      213: -6972910773970317741
+    second: enemigo facil_162
+  - first:
+      213: 6262527298886026100
+    second: enemigo facil_163
+  - first:
+      213: 6784171208851941649
+    second: enemigo facil_164
+  - first:
+      213: 3449662069864124076
+    second: enemigo facil_165
+  - first:
+      213: -5543242207678382860
+    second: enemigo facil_166
+  - first:
+      213: 2937860655160228787
+    second: enemigo facil_167
+  - first:
+      213: 3472348645964546683
+    second: enemigo facil_168
+  - first:
+      213: -9106975136238647509
+    second: enemigo facil_169
+  - first:
+      213: 1905449368874208471
+    second: enemigo facil_170
+  - first:
+      213: -1067983833986849232
+    second: enemigo facil_171
+  - first:
+      213: -1015080836536317843
+    second: enemigo facil_172
+  - first:
+      213: -1341781738155612925
+    second: enemigo facil_173
+  - first:
+      213: 5288825860549243897
+    second: enemigo facil_174
+  - first:
+      213: 511253314607737153
+    second: enemigo facil_175
+  - first:
+      213: 7932087887351075222
+    second: enemigo facil_176
+  - first:
+      213: -6109781212010308204
+    second: enemigo facil_177
+  - first:
+      213: -7121810348279886777
+    second: enemigo facil_178
+  - first:
+      213: 1638941706953069616
+    second: enemigo facil_179
+  - first:
+      213: -8480348534496786387
+    second: enemigo facil_180
+  - first:
+      213: -312239696180587503
+    second: enemigo facil_181
+  - first:
+      213: -6572056276011862564
+    second: enemigo facil_182
+  - first:
+      213: 8810769518638819125
+    second: enemigo facil_183
+  - first:
+      213: -5745915174959312957
+    second: enemigo facil_184
+  - first:
+      213: -3953838529848724602
+    second: enemigo facil_185
+  - first:
+      213: -6209537420378685408
+    second: enemigo facil_186
+  - first:
+      213: 3466543986028553404
+    second: enemigo facil_187
+  - first:
+      213: 8937115013714673568
+    second: enemigo facil_188
+  - first:
+      213: 983813391107763194
+    second: enemigo facil_189
+  - first:
+      213: 9204052544512206575
+    second: enemigo facil_190
+  - first:
+      213: 6400705901244456273
+    second: enemigo facil_191
+  - first:
+      213: 616818306683930599
+    second: enemigo facil_192
+  - first:
+      213: 4568536836740194889
+    second: enemigo facil_193
+  - first:
+      213: -2000972828252444736
+    second: enemigo facil_194
+  - first:
+      213: 2775403047974514770
+    second: enemigo facil_195
+  - first:
+      213: -7334192219542260169
+    second: enemigo facil_196
+  - first:
+      213: 9203686316589541672
+    second: enemigo facil_197
+  - first:
+      213: -4155999341639728971
+    second: enemigo facil_198
+  - first:
+      213: -8778764001719720635
+    second: enemigo facil_199
+  - first:
+      213: -2871001193328652147
+    second: enemigo facil_200
+  - first:
+      213: 2461500701335238016
+    second: enemigo facil_201
+  - first:
+      213: -1149554707376968058
+    second: enemigo facil_202
+  - first:
+      213: -7690717258818294193
+    second: enemigo facil_203
+  - first:
+      213: 3662113014693752088
+    second: enemigo facil_204
+  - first:
+      213: 8958590301757592556
+    second: enemigo facil_205
+  - first:
+      213: -6759441492640435079
+    second: enemigo facil_206
+  - first:
+      213: -5146937006821558850
+    second: enemigo facil_207
+  - first:
+      213: -847138477475882252
+    second: enemigo facil_208
+  - first:
+      213: -7563237001797515292
+    second: enemigo facil_209
+  - first:
+      213: 2456575082955826530
+    second: enemigo facil_210
+  - first:
+      213: 1733300077844150048
+    second: enemigo facil_211
+  - first:
+      213: -5793194961760784254
+    second: enemigo facil_212
+  - first:
+      213: -5217552605182238241
+    second: enemigo facil_213
+  - first:
+      213: -67095767001504452
+    second: enemigo facil_214
+  - first:
+      213: 8630591008897789958
+    second: enemigo facil_215
+  - first:
+      213: 6109022180175914557
+    second: enemigo facil_216
+  - first:
+      213: -4099288806579867484
+    second: enemigo facil_217
+  - first:
+      213: -7112767117859745558
+    second: enemigo facil_218
+  - first:
+      213: 5290873505250624911
+    second: enemigo facil_219
+  - first:
+      213: -7866331563302823098
+    second: enemigo facil_220
+  - first:
+      213: 5758061474827382347
+    second: enemigo facil_221
+  - first:
+      213: -6953198953446314151
+    second: enemigo facil_222
+  - first:
+      213: -7637838875717606648
+    second: enemigo facil_223
+  - first:
+      213: 1770284753887769061
+    second: enemigo facil_224
+  - first:
+      213: -6393817666691212034
+    second: enemigo facil_225
+  - first:
+      213: -8934397811229500274
+    second: enemigo facil_226
+  - first:
+      213: 8508944025926490736
+    second: enemigo facil_227
+  - first:
+      213: -950523795748405615
+    second: enemigo facil_228
+  - first:
+      213: -2478468448598471857
+    second: enemigo facil_229
+  - first:
+      213: -8941968737384749399
+    second: enemigo facil_230
+  - first:
+      213: 6323843057598926361
+    second: enemigo facil_231
+  - first:
+      213: 208721368862043838
+    second: enemigo facil_232
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemigo facil_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6923f286e61d2b0800000000000000
+      internalID: -5561542671078353201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eec0655872394010800000000000000
+      internalID: 1173524670316596961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93155b58afdd8deb0800000000000000
+      internalID: -4694758543478927047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7980d5d2daecc460800000000000000
+      internalID: 7263438490293012863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17459290898d193f0800000000000000
+      internalID: -895696703369685903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82694dbfacdf78c90800000000000000
+      internalID: -7167481233686620632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bf79da45a7b2f90800000000000000
+      internalID: -6977348693572191458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dec66f9b30e8bac0800000000000000
+      internalID: -3839072135651340587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f7f60cd8cac42f0800000000000000
+      internalID: -987224493482082508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99fe626bfdf8eddd0800000000000000
+      internalID: -2459370155501228135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a809e83def73d2e30800000000000000
+      internalID: 4480298771914068106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722aa3221d22f48c0800000000000000
+      internalID: -4012950461346045401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b61cae0ceeff01b0800000000000000
+      internalID: -5688047514533751116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426dccebba753a380800000000000000
+      internalID: -8961222438385035740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c648ca288239dc80800000000000000
+      internalID: -8297545278038718782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4166f697ded705860800000000000000
+      internalID: 7516646236979422740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ec6b58a2e2dca00800000000000000
+      internalID: 778329070771818011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e972bc09dc6eb710800000000000000
+      internalID: 1710924587924093415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6642561ed44a7c0800000000000000
+      internalID: -4061035333521480011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4274e8edb796a00800000000000000
+      internalID: 750267008733881581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfa761d8b979c510800000000000000
+      internalID: 1569919779809505226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4bbfcb905a65e80800000000000000
+      internalID: -8190177411082767150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5376ac339a4279010800000000000000
+      internalID: 1195464535227131701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35aaac9cd12675c10800000000000000
+      internalID: 2042208836114885203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo facil_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9ebe56e5ed14590800000000000000
+      internalID: -7691622191553844774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 42f7b47187a4ee345aed2d614fa938c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      enemigo facil_0: -5561542671078353201
+      enemigo facil_1: 1173524670316596961
+      enemigo facil_10: 4480298771914068106
+      enemigo facil_11: -4012950461346045401
+      enemigo facil_12: -5688047514533751116
+      enemigo facil_13: -8961222438385035740
+      enemigo facil_14: -8297545278038718782
+      enemigo facil_15: 7516646236979422740
+      enemigo facil_16: 778329070771818011
+      enemigo facil_17: 1710924587924093415
+      enemigo facil_18: -4061035333521480011
+      enemigo facil_19: 750267008733881581
+      enemigo facil_2: -4694758543478927047
+      enemigo facil_20: 1569919779809505226
+      enemigo facil_21: -8190177411082767150
+      enemigo facil_22: 1195464535227131701
+      enemigo facil_23: 2042208836114885203
+      enemigo facil_24: -7691622191553844774
+      enemigo facil_3: 7263438490293012863
+      enemigo facil_4: -895696703369685903
+      enemigo facil_5: -7167481233686620632
+      enemigo facil_6: -6977348693572191458
+      enemigo facil_7: -3839072135651340587
+      enemigo facil_8: -987224493482082508
+      enemigo facil_9: -2459370155501228135
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
