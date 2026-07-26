@@ -17,6 +17,9 @@ public class CharacterAnimation : MonoBehaviour
     private static readonly int AttackTriggerParameter =
         Animator.StringToHash("Attack");
 
+    private static readonly int IsRunningParameter =
+        Animator.StringToHash("IsRunning");
+
     [Header("Referencias")]
     [SerializeField]
     private Animator animator;
@@ -52,14 +55,12 @@ public class CharacterAnimation : MonoBehaviour
         }
     }
 
-    public void SetMovement(float horizontalMovement)
+    public void SetMovement(float horizontalMovement, bool isRunning = false)
     {
         float speed = Mathf.Abs(horizontalMovement);
 
-        animator?.SetFloat(
-            SpeedParameter,
-            speed
-        );
+        SetFloatIfExists(SpeedParameter, speed);
+        SetBoolIfExists(IsRunningParameter, isRunning);
 
         if (
             spriteRenderer != null &&
@@ -86,55 +87,64 @@ public class CharacterAnimation : MonoBehaviour
         float verticalVelocity
     )
     {
-        if (animator == null)
-        {
-            return;
-        }
-
-        animator.SetBool(
-            IsGroundedParameter,
-            isGrounded
-        );
-
-        animator.SetFloat(
-            VerticalVelocityParameter,
-            verticalVelocity
-        );
+        SetBoolIfExists(IsGroundedParameter, isGrounded);
+        SetFloatIfExists(VerticalVelocityParameter, verticalVelocity);
     }
 
     public void SetCrouching(bool isCrouching)
     {
-        if (animator == null)
-        {
-            return;
-        }
-
-        animator.SetBool(
-            IsCrouchingParameter,
-            isCrouching
-        );
+        SetBoolIfExists(IsCrouchingParameter, isCrouching);
 
         if (isCrouching)
         {
-            animator.SetFloat(
-                SpeedParameter,
-                0f
-            );
+            SetFloatIfExists(SpeedParameter, 0f);
         }
     }
 
     public void SetAttack()
     {
-        animator?.SetTrigger(
-            AttackTriggerParameter
-        );
+        SetTriggerIfExists(AttackTriggerParameter);
     }
 
     public void SetIdle()
     {
-        animator?.SetFloat(
-            SpeedParameter,
-            0f
-        );
+        SetFloatIfExists(SpeedParameter, 0f);
+    }
+
+    private void SetBoolIfExists(int parameterHash, bool value)
+    {
+        if (animator != null && HasParameter(parameterHash))
+        {
+            animator.SetBool(parameterHash, value);
+        }
+    }
+
+    private void SetFloatIfExists(int parameterHash, float value)
+    {
+        if (animator != null && HasParameter(parameterHash))
+        {
+            animator.SetFloat(parameterHash, value);
+        }
+    }
+
+    private void SetTriggerIfExists(int parameterHash)
+    {
+        if (animator != null && HasParameter(parameterHash))
+        {
+            animator.SetTrigger(parameterHash);
+        }
+    }
+
+    private bool HasParameter(int parameterHash)
+    {
+        if (animator == null) return false;
+        foreach (AnimatorControllerParameter param in animator.parameters)
+        {
+            if (param.nameHash == parameterHash)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }

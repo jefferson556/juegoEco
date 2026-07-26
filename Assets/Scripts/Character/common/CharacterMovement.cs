@@ -164,7 +164,8 @@ public class CharacterMovement : MonoBehaviour
         }
 
         characterAnimation?.SetMovement(
-            horizontalInput
+            horizontalInput,
+            isRunning
         );
         if (
        characterAnimation != null &&
