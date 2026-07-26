@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 923671864}
   - component: {fileID: 923671863}
   m_Layer: 0
-  m_Name: Image (1)
+  m_Name: BarraCorrupcion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1021,7 +1021,7 @@ GameObject:
   - component: {fileID: 1463733047}
   - component: {fileID: 1463733046}
   m_Layer: 0
-  m_Name: Image
+  m_Name: BarraVida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1188,7 +1188,7 @@ GameObject:
   - component: {fileID: 1553405228}
   - component: {fileID: 1553405227}
   m_Layer: 0
-  m_Name: Image (3)
+  m_Name: BarraTiempo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1402,7 +1402,7 @@ GameObject:
   - component: {fileID: 1789683314}
   - component: {fileID: 1789683313}
   m_Layer: 0
-  m_Name: Image (2)
+  m_Name: BarraCristal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
