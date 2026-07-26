@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: c2498f02e467d734491702188e0f63eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7972050411628074690
+    second: eco_ataque_0
+  - first:
+      213: -4308519279259825123
+    second: eco_ataque_1
+  - first:
+      213: 2988821909842703088
+    second: eco_ataque_2
+  - first:
+      213: -7756868924198366288
+    second: eco_ataque_3
+  - first:
+      213: -6872489315983815804
+    second: eco_ataque_4
+  - first:
+      213: 4591554372079706784
+    second: eco_ataque_5
+  - first:
+      213: -5275071418524436133
+    second: eco_ataque_6
+  - first:
+      213: -3205839273868889369
+    second: eco_ataque_7
+  - first:
+      213: 290614873372918029
+    second: eco_ataque_8
+  - first:
+      213: 7719730374708492204
+    second: eco_ataque_9
+  - first:
+      213: 3579326532923865374
+    second: eco_ataque_10
+  - first:
+      213: -2604706007177702483
+    second: eco_ataque_11
+  - first:
+      213: -7856022330141662251
+    second: eco_ataque_12
+  - first:
+      213: -6710474912539453275
+    second: eco_ataque_13
+  - first:
+      213: -3642122545385244952
+    second: eco_ataque_14
+  - first:
+      213: 6937831615238175096
+    second: eco_ataque_15
+  - first:
+      213: -5026462023586633537
+    second: eco_ataque_16
+  - first:
+      213: -2225330915003170989
+    second: eco_ataque_17
+  - first:
+      213: -7296451890391322980
+    second: eco_ataque_18
+  - first:
+      213: 3207056500099530538
+    second: eco_ataque_19
+  - first:
+      213: -8861874130496510631
+    second: eco_ataque_20
+  - first:
+      213: 4194736984094328074
+    second: eco_ataque_21
+  - first:
+      213: 2337840596291160432
+    second: eco_ataque_22
+  - first:
+      213: -1167795396429887599
+    second: eco_ataque_23
+  - first:
+      213: 8715494527282158051
+    second: eco_ataque_24
+  - first:
+      213: -3747090663618313907
+    second: eco_ataque_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eco_ataque_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1071
+        width: 174
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39e66b63669d5190800000000000000
+      internalID: -7972050411628074690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1072
+        width: 174
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ccbc30b801534c0800000000000000
+      internalID: -4308519279259825123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_2
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1072
+        width: 177
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2341901bd6a7920800000000000000
+      internalID: 2988821909842703088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_3
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1073
+        width: 174
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3d3e3afc01a5490800000000000000
+      internalID: -7756868924198366288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_4
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1073
+        width: 107
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b0e1e016300a0a0800000000000000
+      internalID: -6872489315983815804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 816
+        width: 172
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2e3b2df5a78bf30800000000000000
+      internalID: 4591554372079706784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 816
+        width: 184
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59f80e4e7e2bc6b0800000000000000
+      internalID: -5275071418524436133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_7
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 816
+        width: 187
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e27c0a6a229283d0800000000000000
+      internalID: -3205839273868889369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_8
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 816
+        width: 185
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0186d500b8780400800000000000000
+      internalID: 290614873372918029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_9
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 816
+        width: 163
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7fa4affddf12b60800000000000000
+      internalID: 7719730374708492204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 561
+        width: 116
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19be0284825ca130800000000000000
+      internalID: 3579326532923865374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_11
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 561
+        width: 156
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3d8d1dfa93adbd0800000000000000
+      internalID: -2604706007177702483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_12
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 561
+        width: 188
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3ae50505dc9f290800000000000000
+      internalID: -7856022330141662251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_13
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 561
+        width: 191
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a85ae3ee9a9fd2a0800000000000000
+      internalID: -6710474912539453275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_14
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 561
+        width: 155
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6fedd77d4947dc0800000000000000
+      internalID: -3642122545385244952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 305
+        width: 122
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879feb98811284060800000000000000
+      internalID: 6937831615238175096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_16
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 304
+        width: 171
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8a02fbb6b6e3ab0800000000000000
+      internalID: -5026462023586633537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_17
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 304
+        width: 187
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f7a87b2590e11e0800000000000000
+      internalID: -2225330915003170989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_18
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 304
+        width: 192
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e6f78f9abcdba90800000000000000
+      internalID: -7296451890391322980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_19
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 304
+        width: 187
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f3a0725e0c18c20800000000000000
+      internalID: 3207056500099530538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 177
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95528873e6c440580800000000000000
+      internalID: -8861874130496510631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_21
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 48
+        width: 180
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05c227ff03b63a30800000000000000
+      internalID: 4194736984094328074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 48
+        width: 147
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0790c6bc2ada17020800000000000000
+      internalID: 2337840596291160432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_23
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 48
+        width: 153
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197c57136482bcfe0800000000000000
+      internalID: -1167795396429887599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_24
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 111
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9938c8818a3f870800000000000000
+      internalID: 8715494527282158051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_ataque_25
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 48
+        width: 167
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4109d5f4e8affbc0800000000000000
+      internalID: -3747090663618313907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      eco_ataque_0: -7972050411628074690
+      eco_ataque_1: -4308519279259825123
+      eco_ataque_10: 3579326532923865374
+      eco_ataque_11: -2604706007177702483
+      eco_ataque_12: -7856022330141662251
+      eco_ataque_13: -6710474912539453275
+      eco_ataque_14: -3642122545385244952
+      eco_ataque_15: 6937831615238175096
+      eco_ataque_16: -5026462023586633537
+      eco_ataque_17: -2225330915003170989
+      eco_ataque_18: -7296451890391322980
+      eco_ataque_19: 3207056500099530538
+      eco_ataque_2: 2988821909842703088
+      eco_ataque_20: -8861874130496510631
+      eco_ataque_21: 4194736984094328074
+      eco_ataque_22: 2337840596291160432
+      eco_ataque_23: -1167795396429887599
+      eco_ataque_24: 8715494527282158051
+      eco_ataque_25: -3747090663618313907
+      eco_ataque_3: -7756868924198366288
+      eco_ataque_4: -6872489315983815804
+      eco_ataque_5: 4591554372079706784
+      eco_ataque_6: -5275071418524436133
+      eco_ataque_7: -3205839273868889369
+      eco_ataque_8: 290614873372918029
+      eco_ataque_9: 7719730374708492204
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
