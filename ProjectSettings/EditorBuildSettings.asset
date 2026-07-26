@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/EntradaSue\xF1o.unity"
     guid: 93b0c6232c2c6e243b296029f1cf17c3
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Nivel1.unity
     guid: a52ad1752d297a748887a189baea4119
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nivel1 1-modificada.unity
     guid: da52aa8c1ce091d499fc0cbdb3f1016a
   - enabled: 1
