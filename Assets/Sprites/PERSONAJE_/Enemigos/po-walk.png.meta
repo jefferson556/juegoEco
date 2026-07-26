@@ -241,10 +241,10 @@ TextureImporter:
       name: po-walk_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 1087
-        width: 72
-        height: 129
+        x: 16
+        y: 1061
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: po-walk_1
       rect:
         serializedVersion: 2
-        x: 346
-        y: 1087
-        width: 74
-        height: 129
+        x: 285
+        y: 1061
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,10 +285,10 @@ TextureImporter:
       name: po-walk_2
       rect:
         serializedVersion: 2
-        x: 604
-        y: 1086
-        width: 72
-        height: 129
+        x: 554
+        y: 1061
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: po-walk_4
       rect:
         serializedVersion: 2
-        x: 861
-        y: 1085
-        width: 67
-        height: 129
+        x: 1092
+        y: 1061
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,10 +329,10 @@ TextureImporter:
       name: po-walk_6
       rect:
         serializedVersion: 2
-        x: 1117
-        y: 1085
-        width: 64
-        height: 130
+        x: 285
+        y: 796
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,10 +351,10 @@ TextureImporter:
       name: po-walk_11
       rect:
         serializedVersion: 2
-        x: 90
-        y: 829
-        width: 61
-        height: 131
+        x: 285
+        y: 531
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,10 +373,10 @@ TextureImporter:
       name: po-walk_12
       rect:
         serializedVersion: 2
-        x: 345
-        y: 830
-        width: 71
-        height: 131
+        x: 554
+        y: 531
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,10 +395,10 @@ TextureImporter:
       name: po-walk_13
       rect:
         serializedVersion: 2
-        x: 603
-        y: 830
-        width: 78
-        height: 131
+        x: 823
+        y: 531
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,10 +417,10 @@ TextureImporter:
       name: po-walk_15
       rect:
         serializedVersion: 2
-        x: 863
-        y: 830
-        width: 79
-        height: 130
+        x: 16
+        y: 266
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,10 +439,10 @@ TextureImporter:
       name: po-walk_16
       rect:
         serializedVersion: 2
-        x: 1111
-        y: 830
-        width: 91
-        height: 128
+        x: 285
+        y: 266
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,10 +461,10 @@ TextureImporter:
       name: po-walk_20
       rect:
         serializedVersion: 2
-        x: 94
-        y: 574
-        width: 81
-        height: 129
+        x: 16
+        y: 1
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,10 +483,10 @@ TextureImporter:
       name: po-walk_21
       rect:
         serializedVersion: 2
-        x: 346
-        y: 574
-        width: 80
-        height: 129
+        x: 285
+        y: 1
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -505,10 +505,10 @@ TextureImporter:
       name: po-walk_23
       rect:
         serializedVersion: 2
-        x: 601
-        y: 575
-        width: 69
-        height: 130
+        x: 823
+        y: 1
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,475 +524,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: po-walk_24
-      rect:
-        serializedVersion: 2
-        x: 857
-        y: 575
-        width: 66
-        height: 130
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a4d7d26dcb0ac330800000000000000
-      internalID: 3731808217984390312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_25
-      rect:
-        serializedVersion: 2
-        x: 1112
-        y: 575
-        width: 76
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 938c89b986ec38d40800000000000000
-      internalID: 5585534911551948857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_28
-      rect:
-        serializedVersion: 2
-        x: 93
-        y: 318
-        width: 72
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d94f5b9a58d93b700800000000000000
-      internalID: 554960376500188317
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_29
-      rect:
-        serializedVersion: 2
-        x: 349
-        y: 317
-        width: 68
-        height: 130
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87b4b8f3779dae490800000000000000
-      internalID: -7716115905355494536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_30
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 317
-        width: 63
-        height: 130
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bf1441215f338b60800000000000000
-      internalID: 7747105401690398642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_31
-      rect:
-        serializedVersion: 2
-        x: 857
-        y: 317
-        width: 63
-        height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a717d8e5559cdc90800000000000000
-      internalID: -7143670712705280090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_32
-      rect:
-        serializedVersion: 2
-        x: 858
-        y: 408
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f35875abeda1ec020800000000000000
-      internalID: 2363856398327448895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_33
-      rect:
-        serializedVersion: 2
-        x: 1112
-        y: 318
-        width: 75
-        height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 361cd10f42ba08be0800000000000000
-      internalID: -1476992502641868445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_34
-      rect:
-        serializedVersion: 2
-        x: 1114
-        y: 411
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46227f9551f049b20800000000000000
-      internalID: 3140151424562176612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_35
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 402
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 274fa36662274d2e0800000000000000
-      internalID: -2101929616825715598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_36
-      rect:
-        serializedVersion: 2
-        x: 602
-        y: 405
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80894a3303a5c04d0800000000000000
-      internalID: -3167057274876946424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_37
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 399
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 25e23974417221d10800000000000000
-      internalID: 2094779744734359122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_38
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 351
-        width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4aefda9b5771500d0800000000000000
-      internalID: -3457331344543187292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_39
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 62
-        width: 82
-        height: 131
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ba7af59ce7b45b50800000000000000
-      internalID: 6581087182251522739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_40
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 62
-        width: 85
-        height: 130
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08ab4b2384a442150800000000000000
-      internalID: 5846879890182552192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_41
-      rect:
-        serializedVersion: 2
-        x: 599
-        y: 62
-        width: 90
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17b28da3f00ab4bd0800000000000000
-      internalID: -2644844368877835407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_42
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 103
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 61dfc523e5f0308e0800000000000000
-      internalID: -1728520934733841130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_43
-      rect:
-        serializedVersion: 2
-        x: 857
-        y: 103
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be3371a630be32e90800000000000000
-      internalID: -7051534191634730005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_44
-      rect:
-        serializedVersion: 2
-        x: 859
-        y: 62
-        width: 82
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27ac66ba9babb4130800000000000000
-      internalID: 3552138037719124594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_45
-      rect:
-        serializedVersion: 2
-        x: 1116
-        y: 63
-        width: 71
-        height: 130
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fdf77c695640cac40800000000000000
-      internalID: 5524795677244620767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: po-walk_46
-      rect:
-        serializedVersion: 2
-        x: 1112
-        y: 91
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f14dbf6636923b90800000000000000
-      internalID: -7263578088448114189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: po-walk_3
       rect:
         serializedVersion: 2
-        x: 857
-        y: 1170
-        width: 5
-        height: 5
+        x: 823
+        y: 1061
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1011,10 +549,10 @@ TextureImporter:
       name: po-walk_5
       rect:
         serializedVersion: 2
-        x: 1114
-        y: 1173
-        width: 4
-        height: 5
+        x: 16
+        y: 796
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1033,10 +571,10 @@ TextureImporter:
       name: po-walk_7
       rect:
         serializedVersion: 2
-        x: 602
-        y: 1167
-        width: 5
-        height: 5
+        x: 554
+        y: 796
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1055,10 +593,10 @@ TextureImporter:
       name: po-walk_8
       rect:
         serializedVersion: 2
-        x: 88
-        y: 1115
-        width: 4
-        height: 5
+        x: 823
+        y: 796
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1077,10 +615,10 @@ TextureImporter:
       name: po-walk_9
       rect:
         serializedVersion: 2
-        x: 343
-        y: 1115
-        width: 4
-        height: 5
+        x: 1092
+        y: 796
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1099,10 +637,10 @@ TextureImporter:
       name: po-walk_10
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1120
-        width: 12
-        height: 18
+        x: 16
+        y: 531
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1118,13 +656,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: po-walk_14
+      name: po-walk_19
       rect:
         serializedVersion: 2
-        x: 857
-        y: 871
-        width: 9
-        height: 13
+        x: 1092
+        y: 266
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1133,7 +671,51 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01683fe7b062ca244b94c559d1704ba6
+      spriteID: 7fe3a8f266536e348b0e0578d93b9916
+      internalID: -3873939644313219293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_22
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a975bce6e8344542b89021dacce1500
+      internalID: -3892047351227862575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_14
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 531
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393df519503d6824ab9e4aed024c0e50
       internalID: 954681171888488813
       vertices: []
       indices: 
@@ -1143,10 +725,10 @@ TextureImporter:
       name: po-walk_17
       rect:
         serializedVersion: 2
-        x: 1113
-        y: 871
-        width: 9
-        height: 13
+        x: 554
+        y: 266
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1155,7 +737,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bde8145de7bc2848b63bec4622d2442
+      spriteID: cc2316a6b9bcde348957f02364a2ca82
       internalID: 4990379381045238996
       vertices: []
       indices: 
@@ -1165,10 +747,10 @@ TextureImporter:
       name: po-walk_18
       rect:
         serializedVersion: 2
-        x: 600
-        y: 858
-        width: 4
-        height: 4
+        x: 823
+        y: 266
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1177,20 +759,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0566d9642e3cd9e4faca2d5bcf758bbd
+      spriteID: 456b3157a723d694080d8a0d11f786a2
       internalID: -272730451048619018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: po-walk_26
+      name: po-walk_24
       rect:
         serializedVersion: 2
-        x: 1115
-        y: 651
-        width: 5
-        height: 5
+        x: 1092
+        y: 1
+        width: 188
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1199,8 +781,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd9c220d4d0206649acea6f3665f649c
-      internalID: 4826419123163075871
+      spriteID: f7bcd16985f15c44c9429cab651bc2e7
+      internalID: 1541673921
       vertices: []
       indices: 
       edges: []
@@ -1219,7 +801,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":188.0,"y":219.0},"gridSpriteOffset":{"x":16.0,"y":0.0},"gridSpritePadding":{"x":81.0,"y":46.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       po-walk_0: 1370970611817086792
       po-walk_1: 811194014347700988
@@ -1238,31 +820,9 @@ TextureImporter:
       po-walk_21: 801857505314040002
       po-walk_22: -3892047351227862575
       po-walk_23: -612584940319575439
-      po-walk_24: 3731808217984390312
-      po-walk_25: 5585534911551948857
-      po-walk_26: 4826419123163075871
-      po-walk_27: -4591929740375490022
-      po-walk_28: 554960376500188317
-      po-walk_29: -7716115905355494536
+      po-walk_24: 1541673921
       po-walk_3: -6911205628815859768
-      po-walk_30: 7747105401690398642
-      po-walk_31: -7143670712705280090
-      po-walk_32: 2363856398327448895
-      po-walk_33: -1476992502641868445
-      po-walk_34: 3140151424562176612
-      po-walk_35: -2101929616825715598
-      po-walk_36: -3167057274876946424
-      po-walk_37: 2094779744734359122
-      po-walk_38: -3457331344543187292
-      po-walk_39: 6581087182251522739
       po-walk_4: -5233822649778268792
-      po-walk_40: 5846879890182552192
-      po-walk_41: -2644844368877835407
-      po-walk_42: -1728520934733841130
-      po-walk_43: -7051534191634730005
-      po-walk_44: 3552138037719124594
-      po-walk_45: 5524795677244620767
-      po-walk_46: -7263578088448114189
       po-walk_5: 553649539182541540
       po-walk_6: 7447449170734118134
       po-walk_7: 4865372940477889766
