@@ -20,15 +20,44 @@ public class EcoAttack : MonoBehaviour
     [SerializeField]
     private CharacterAnimation characterAnimation;
 
+    [SerializeField]
+    private CharacterMovement characterMovement;
+
+    [SerializeField]
+    private CharacterJump characterJump;
+
+    [Header("Penalización por Eliminar Enemigo")]
+    [SerializeField]
+    private CharacterStats normalStats;
+
+    [SerializeField]
+    private CharacterStats penalizedStats;
+
+    [SerializeField]
+    [Min(1f)]
+    private float penaltyDuration = 5f;
+
     [Header("Debug")]
     [SerializeField]
     private bool showDebugLogs = true;
+
+    private Coroutine penaltyCoroutine;
 
     private void Awake()
     {
         if (characterAnimation == null)
         {
             characterAnimation = GetComponentInChildren<CharacterAnimation>();
+        }
+
+        if (characterMovement == null)
+        {
+            characterMovement = GetComponent<CharacterMovement>();
+        }
+
+        if (characterJump == null)
+        {
+            characterJump = GetComponent<CharacterJump>();
         }
     }
 
@@ -64,8 +93,13 @@ public class EcoAttack : MonoBehaviour
                 EnemyHealth enemyHealth = enemyCollider.GetComponentInParent<EnemyHealth>();
                 if (enemyHealth != null)
                 {
-                    enemyHealth.TakeHit(1);
+                    bool wasDefeated = enemyHealth.TakeHit(1);
                     hitCount++;
+
+                    if (wasDefeated)
+                    {
+                        ApplyDefeatPenalty();
+                    }
                 }
             }
         }
@@ -77,6 +111,73 @@ public class EcoAttack : MonoBehaviour
                 this
             );
         }
+    }
+
+    public void ApplyDefeatPenalty()
+    {
+        if (penalizedStats == null)
+        {
+            Debug.LogWarning(
+                "[EcoAttack] ¡Enemigo eliminado! Pero no hay PenalizedStats asignado en el Inspector.",
+                this
+            );
+
+            return;
+        }
+
+        if (characterMovement != null)
+        {
+            characterMovement.SetStats(penalizedStats);
+        }
+
+        if (characterJump != null)
+        {
+            characterJump.SetStats(penalizedStats);
+        }
+
+        if (showDebugLogs)
+        {
+            Debug.Log(
+                $"[EcoAttack] ¡ENEMIGO ELIMINADO! Penalización aplicada por {penaltyDuration}s: " +
+                $"Velocidad = {penalizedStats.WalkSpeed}, Salto = {penalizedStats.JumpForce}",
+                this
+            );
+        }
+
+        if (penaltyCoroutine != null)
+        {
+            StopCoroutine(penaltyCoroutine);
+        }
+
+        penaltyCoroutine = StartCoroutine(PenaltyTimerCoroutine());
+    }
+
+    private System.Collections.IEnumerator PenaltyTimerCoroutine()
+    {
+        yield return new WaitForSeconds(penaltyDuration);
+
+        if (normalStats != null)
+        {
+            if (characterMovement != null)
+            {
+                characterMovement.SetStats(normalStats);
+            }
+
+            if (characterJump != null)
+            {
+                characterJump.SetStats(normalStats);
+            }
+
+            if (showDebugLogs)
+            {
+                Debug.Log(
+                    $"[EcoAttack] Penalización finalizada ({penaltyDuration}s). Estadísticas restauradas.",
+                    this
+                );
+            }
+        }
+
+        penaltyCoroutine = null;
     }
 
     private void OnDrawGizmosSelected()

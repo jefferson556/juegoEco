@@ -12,16 +12,18 @@ public class EnemyHealth : MonoBehaviour
 
     private int currentHits;
 
+    public event System.Action OnEnemyDefeated;
+
     private void Awake()
     {
         currentHits = maxHits;
     }
 
-    public void TakeHit(int damage = 1)
+    public bool TakeHit(int damage = 1)
     {
         if (currentHits <= 0)
         {
-            return;
+            return false;
         }
 
         currentHits -= damage;
@@ -38,11 +40,16 @@ public class EnemyHealth : MonoBehaviour
         if (currentHits <= 0)
         {
             Defeat();
+            return true;
         }
+
+        return false;
     }
 
     private void Defeat()
     {
+        OnEnemyDefeated?.Invoke();
+
         if (showDebugLogs)
         {
             Debug.Log(
