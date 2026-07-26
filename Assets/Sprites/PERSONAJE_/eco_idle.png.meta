@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8aebb31d9e7b7ae49950773f72bd175f
+guid: e958767f1b3ec2d44b9f8a48311a002d
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -112,7 +112,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -150,7 +150,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -171,555 +171,590 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: aaa-aaa_0
+      name: eco_idle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1024
-        width: 256
-        height: 256
+        x: 88
+        y: 1045
+        width: 68
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f4f882e411b7d1c30800000000000000
-      internalID: 4331753730856226639
+      spriteID: b3064b272d1faac4d8ccdc23b502cf3c
+      internalID: 1374349743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_1
+      name: eco_idle_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1024
-        width: 256
-        height: 256
+        x: 344
+        y: 1045
+        width: 68
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ba77c6db984a8aef0800000000000000
-      internalID: -96646480492988501
+      spriteID: a11a2236cdf73814c8000371a2e06260
+      internalID: 21661784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_2
+      name: eco_idle_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 1024
-        width: 256
-        height: 256
+        x: 599
+        y: 1045
+        width: 70
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3ac409a6adcaa5780800000000000000
-      internalID: -8693446076594631517
+      spriteID: daace27ad10aed14b9c07c0ad18b85e0
+      internalID: -1822530098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_3
+      name: eco_idle_3
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1024
-        width: 256
-        height: 256
+        x: 853
+        y: 1045
+        width: 73
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8df582e458ade2490800000000000000
-      internalID: -7769032041090752552
+      spriteID: cb2747227eec99b408e94b1629c7c0b4
+      internalID: -1009579343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_4
+      name: eco_idle_4
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1024
-        width: 256
-        height: 256
+        x: 1108
+        y: 1045
+        width: 75
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1413e85d1ff7675a0800000000000000
-      internalID: -6523886333552873151
+      spriteID: 21828b03f61dc414d8e375dff837419d
+      internalID: 1507940819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_5
+      name: eco_idle_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
-        width: 256
-        height: 256
+        x: 78
+        y: 789
+        width: 84
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8d7ba54a98a9e5940800000000000000
-      internalID: 5286832928538146776
+      spriteID: 2a12203f72826a54da515ec2fdaae0d7
+      internalID: 1496272283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_6
+      name: eco_idle_6
       rect:
         serializedVersion: 2
-        x: 256
-        y: 768
-        width: 256
-        height: 256
+        x: 327
+        y: 789
+        width: 93
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 49ebe5c015e289270800000000000000
-      internalID: 8257400842418568852
+      spriteID: 474ad017a3d940649995e5896eb60658
+      internalID: 1260247861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_7
+      name: eco_idle_7
       rect:
         serializedVersion: 2
-        x: 512
-        y: 768
-        width: 256
-        height: 256
+        x: 578
+        y: 789
+        width: 100
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5549051659ba0c80800000000000000
-      internalID: -8355662379261278881
+      spriteID: 3a4a647bf978a3244a22c710138d30af
+      internalID: 1750772253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_8
+      name: eco_idle_8
       rect:
         serializedVersion: 2
-        x: 768
-        y: 768
-        width: 256
-        height: 256
+        x: 831
+        y: 789
+        width: 103
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48dfe7475a6d4bb70800000000000000
-      internalID: 8913985568585481604
+      spriteID: 0c7c5c3ddcf6451488e46ea082782cab
+      internalID: 527738245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_9
+      name: eco_idle_9
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 768
-        width: 256
-        height: 256
+        x: 1085
+        y: 789
+        width: 106
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 33bad6443d46777a0800000000000000
-      internalID: -6379519488598103245
+      spriteID: f0b286b41dc128e4d8d4194c83b80a53
+      internalID: -76562429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_10
+      name: eco_idle_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
-        width: 256
-        height: 256
+        x: 57
+        y: 533
+        width: 110
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 91e12bd7313294c40800000000000000
-      internalID: 5496963386802576921
+      spriteID: b51e96fccea09da41b20fde2d1683fb8
+      internalID: -1468185037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_11
+      name: eco_idle_11
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
+        x: 311
+        y: 533
+        width: 111
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 96be9e818ee45fca0800000000000000
-      internalID: -5983789771134473367
+      spriteID: 7c8545616eea8c24b999898455ba899e
+      internalID: -1383437553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_12
+      name: eco_idle_12
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 256
-        height: 256
+        x: 565
+        y: 533
+        width: 113
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f22c1935daaa72d20800000000000000
-      internalID: 3253756917206598191
+      spriteID: 7454d4575d1662d4f82ce3a79349ffad
+      internalID: -1763485412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_13
+      name: eco_idle_13
       rect:
         serializedVersion: 2
-        x: 768
-        y: 512
-        width: 256
-        height: 256
+        x: 820
+        y: 533
+        width: 113
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 51b802f9076b0f4b0800000000000000
-      internalID: -5408622557649663211
+      spriteID: 7c64d1b9953eb1241ba5e7569d6a07d3
+      internalID: -701699530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_14
+      name: eco_idle_14
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 512
-        width: 256
-        height: 256
+        x: 1076
+        y: 533
+        width: 113
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b49ec163977283070800000000000000
-      internalID: 8086256532496116043
+      spriteID: 043a7e3320f758947835a522c387babf
+      internalID: -1533275515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_15
+      name: eco_idle_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 256
-        height: 256
+        x: 54
+        y: 277
+        width: 111
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 56f4c624048346ba0800000000000000
-      internalID: -6096686146909352091
+      spriteID: ec6ebd57f8a508444b3fb19e85bae058
+      internalID: -177787515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_16
+      name: eco_idle_16
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 256
-        height: 256
+        x: 311
+        y: 293
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d803f07b39735c930800000000000000
-      internalID: 4162794538144837773
+      spriteID: 445cbae2aa5b0224394d4f6d2564b5b6
+      internalID: 1782414083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_17
+      name: eco_idle_17
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
-        width: 256
-        height: 256
+        x: 314
+        y: 277
+        width: 107
+        height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bb2e7935fda096570800000000000000
-      internalID: 8460305329288635067
+      spriteID: dca8307d7d95102449db40bf4a986a94
+      internalID: 1120379566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_18
+      name: eco_idle_18
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
-        width: 256
-        height: 256
+        x: 571
+        y: 276
+        width: 106
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6ffedfe566a2cf090800000000000000
-      internalID: -7999472218948112394
+      spriteID: 29c1e48260e4e534daed9cf7ebffff0f
+      internalID: 520230563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_19
+      name: eco_idle_19
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 256
-        width: 256
-        height: 256
+        x: 829
+        y: 277
+        width: 104
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 46c41a1f024035df0800000000000000
-      internalID: -192805819507454876
+      spriteID: 7ff6e6f872fa2594b91f111c75acdde8
+      internalID: 1460610220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_20
+      name: eco_idle_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 256
+        x: 1086
+        y: 277
+        width: 103
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8fd2b0e341f8c6220800000000000000
-      internalID: 2480514811877338616
+      spriteID: d69c2b0e3eb3d7047ab83c25d649b39d
+      internalID: -385122452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_21
+      name: eco_idle_21
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 256
-        height: 256
+        x: 78
+        y: 21
+        width: 87
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0deb2b031199481c0800000000000000
-      internalID: -4502305428353138992
+      spriteID: d91e63da8f68bf14ea0957354fcb8535
+      internalID: -495544781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_22
+      name: eco_idle_22
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 256
-        height: 256
+        x: 336
+        y: 21
+        width: 85
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7b0632db907e764f0800000000000000
-      internalID: -835445176840003401
+      spriteID: cf14f825b77ca1443bee27aadb519012
+      internalID: -897850715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_23
+      name: eco_idle_23
       rect:
         serializedVersion: 2
-        x: 768
-        y: 0
-        width: 256
-        height: 256
+        x: 593
+        y: 21
+        width: 84
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 80d3f8a2f6c56a340800000000000000
-      internalID: 4874685279200296200
+      spriteID: a656eb35a59b1ab4cb67ca5adbf4b595
+      internalID: -1987014487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: aaa-aaa_24
+      name: eco_idle_24
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 256
-        height: 256
+        x: 850
+        y: 21
+        width: 83
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7d35c2a23144f80a0800000000000000
-      internalID: -6877203256868842537
+      spriteID: 0f5ed6343dab85347aaea2a76954dab0
+      internalID: 1191790774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_idle_25
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 21
+        width: 83
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dfa58402927d5459b2e0cc5d23dd24
+      internalID: -1907485902
       vertices: []
       indices: 
       edges: []
@@ -728,7 +763,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 05cc7c7add2664f4c9f81cf0f9f51996
+    spriteID: 513eab459a1bb254887a49f281805a2c
     internalID: 0
     vertices: []
     indices: 
@@ -738,33 +773,34 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      aaa-aaa_0: 4331753730856226639
-      aaa-aaa_1: -96646480492988501
-      aaa-aaa_10: 5496963386802576921
-      aaa-aaa_11: -5983789771134473367
-      aaa-aaa_12: 3253756917206598191
-      aaa-aaa_13: -5408622557649663211
-      aaa-aaa_14: 8086256532496116043
-      aaa-aaa_15: -6096686146909352091
-      aaa-aaa_16: 4162794538144837773
-      aaa-aaa_17: 8460305329288635067
-      aaa-aaa_18: -7999472218948112394
-      aaa-aaa_19: -192805819507454876
-      aaa-aaa_2: -8693446076594631517
-      aaa-aaa_20: 2480514811877338616
-      aaa-aaa_21: -4502305428353138992
-      aaa-aaa_22: -835445176840003401
-      aaa-aaa_23: 4874685279200296200
-      aaa-aaa_24: -6877203256868842537
-      aaa-aaa_3: -7769032041090752552
-      aaa-aaa_4: -6523886333552873151
-      aaa-aaa_5: 5286832928538146776
-      aaa-aaa_6: 8257400842418568852
-      aaa-aaa_7: -8355662379261278881
-      aaa-aaa_8: 8913985568585481604
-      aaa-aaa_9: -6379519488598103245
+      eco_idle_0: 1374349743
+      eco_idle_1: 21661784
+      eco_idle_10: -1468185037
+      eco_idle_11: -1383437553
+      eco_idle_12: -1763485412
+      eco_idle_13: -701699530
+      eco_idle_14: -1533275515
+      eco_idle_15: -177787515
+      eco_idle_16: 1782414083
+      eco_idle_17: 1120379566
+      eco_idle_18: 520230563
+      eco_idle_19: 1460610220
+      eco_idle_2: -1822530098
+      eco_idle_20: -385122452
+      eco_idle_21: -495544781
+      eco_idle_22: -897850715
+      eco_idle_23: -1987014487
+      eco_idle_24: 1191790774
+      eco_idle_25: -1907485902
+      eco_idle_3: -1009579343
+      eco_idle_4: 1507940819
+      eco_idle_5: 1496272283
+      eco_idle_6: 1260247861
+      eco_idle_7: 1750772253
+      eco_idle_8: 527738245
+      eco_idle_9: -76562429
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
