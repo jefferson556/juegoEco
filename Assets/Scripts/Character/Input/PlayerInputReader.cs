@@ -15,21 +15,29 @@ public class PlayerInputReader : MonoBehaviour
     private float lastHorizontal = float.NaN;
     private bool lastRunning;
 
+    public bool InputEnabled => inputEnabled;
+
     private void Awake()
     {
         characterController =
             GetComponent<CharacterController2D>();
 
-        Debug.Log(
-            $"[PlayerInputReader] Awake. " +
-            $"Controller encontrado: {characterController != null}",
-            this
-        );
+        if (characterController == null)
+        {
+            Debug.LogError(
+                "[PlayerInputReader] No se encontró " +
+                "CharacterController2D.",
+                this
+            );
+        }
     }
 
     private void Update()
     {
-        if (!inputEnabled)
+        if (
+            !inputEnabled ||
+            characterController == null
+        )
         {
             return;
         }
@@ -51,13 +59,13 @@ public class PlayerInputReader : MonoBehaviour
             )
         )
         {
-           /* Debug.Log(
-                $"[PlayerInputReader] " +
-                $"Horizontal: {horizontal}, " +
-                $"Running: {isRunning}",
+            Debug.Log(
+                $"[PlayerInputReader:{name}] " +
+                $"Horizontal={horizontal}, " +
+                $"Running={isRunning}",
                 this
             );
-           */
+
             lastHorizontal = horizontal;
             lastRunning = isRunning;
         }
@@ -72,7 +80,8 @@ public class PlayerInputReader : MonoBehaviour
             if (showDebugLogs)
             {
                 Debug.Log(
-                    "[PlayerInputReader] Salto presionado.",
+                    $"[PlayerInputReader:{name}] " +
+                    "Salto presionado.",
                     this
                 );
             }
@@ -87,21 +96,51 @@ public class PlayerInputReader : MonoBehaviour
 
         characterController?.EnableControl();
 
-        Debug.Log(
-            "[PlayerInputReader] Input habilitado.",
-            this
-        );
+        if (showDebugLogs)
+        {
+            Debug.Log(
+                $"[PlayerInputReader:{name}] " +
+                "Input habilitado.",
+                this
+            );
+        }
     }
 
+    // Para cinemáticas:
+    // bloquea el teclado, pero permite movimiento automático.
     public void DisableInput()
     {
         inputEnabled = false;
 
         characterController?.Stop();
 
-        Debug.Log(
-            "[PlayerInputReader] Input deshabilitado.",
-            this
-        );
+        if (showDebugLogs)
+        {
+            Debug.Log(
+                $"[PlayerInputReader:{name}] " +
+                "Input deshabilitado, " +
+                "movimiento automático permitido.",
+                this
+            );
+        }
+    }
+
+    // Para el cambio de personaje:
+    // bloquea tanto el teclado como el movimiento.
+    public void DisableInputAndControl()
+    {
+        inputEnabled = false;
+
+        characterController?.Stop();
+        characterController?.DisableControl();
+
+        if (showDebugLogs)
+        {
+            Debug.Log(
+                $"[PlayerInputReader:{name}] " +
+                "Input y control deshabilitados.",
+                this
+            );
+        }
     }
 }

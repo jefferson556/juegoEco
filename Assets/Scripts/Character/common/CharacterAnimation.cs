@@ -11,6 +11,9 @@ public class CharacterAnimation : MonoBehaviour
     private static readonly int VerticalVelocityParameter =
         Animator.StringToHash("VerticalVelocity");
 
+    private static readonly int IsCrouchingParameter =
+        Animator.StringToHash("IsCr");
+
     [Header("Referencias")]
     [SerializeField]
     private Animator animator;
@@ -69,6 +72,27 @@ public class CharacterAnimation : MonoBehaviour
             VerticalVelocityParameter,
             verticalVelocity
         );
+    }
+
+    public void SetCrouching(bool isCrouching)
+    {
+        if (animator == null)
+        {
+            return;
+        }
+
+        animator.SetBool(
+            IsCrouchingParameter,
+            isCrouching
+        );
+
+        if (isCrouching)
+        {
+            animator.SetFloat(
+                SpeedParameter,
+                0f
+            );
+        }
     }
 
     public void SetIdle()
