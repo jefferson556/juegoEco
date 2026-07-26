@@ -561,6 +561,10 @@ PrefabInstance:
       propertyPath: m_Icon
       value: 
       objectReference: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 8533360226455915514, guid: c2f14b8b9e0da864fac9a3b73afe145c, type: 3}
+      propertyPath: interactionPoint
+      value: 
+      objectReference: {fileID: 401053991}
     - target: {fileID: 9191325558561246792, guid: c2f14b8b9e0da864fac9a3b73afe145c, type: 3}
       propertyPath: groundCheckRadius
       value: 0.67
