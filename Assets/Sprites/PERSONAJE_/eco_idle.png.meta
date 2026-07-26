@@ -193,7 +193,7 @@ TextureImporter:
         serializedVersion: 2
         x: 88
         y: 1045
-        width: 68
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -215,7 +215,7 @@ TextureImporter:
         serializedVersion: 2
         x: 344
         y: 1045
-        width: 68
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -235,9 +235,9 @@ TextureImporter:
       name: eco_idle_2
       rect:
         serializedVersion: 2
-        x: 599
+        x: 600
         y: 1045
-        width: 70
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -259,7 +259,7 @@ TextureImporter:
         serializedVersion: 2
         x: 853
         y: 1045
-        width: 73
+        width: 120
         height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -281,7 +281,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1108
         y: 1045
-        width: 75
+        width: 120
         height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -303,7 +303,7 @@ TextureImporter:
         serializedVersion: 2
         x: 78
         y: 789
-        width: 84
+        width: 120
         height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -325,7 +325,7 @@ TextureImporter:
         serializedVersion: 2
         x: 327
         y: 789
-        width: 93
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -347,7 +347,7 @@ TextureImporter:
         serializedVersion: 2
         x: 578
         y: 789
-        width: 100
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -369,7 +369,7 @@ TextureImporter:
         serializedVersion: 2
         x: 831
         y: 789
-        width: 103
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -391,7 +391,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1085
         y: 789
-        width: 106
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -413,7 +413,7 @@ TextureImporter:
         serializedVersion: 2
         x: 57
         y: 533
-        width: 110
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -433,9 +433,9 @@ TextureImporter:
       name: eco_idle_11
       rect:
         serializedVersion: 2
-        x: 311
+        x: 310
         y: 533
-        width: 111
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -457,7 +457,7 @@ TextureImporter:
         serializedVersion: 2
         x: 565
         y: 533
-        width: 113
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -479,7 +479,7 @@ TextureImporter:
         serializedVersion: 2
         x: 820
         y: 533
-        width: 113
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -501,7 +501,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1076
         y: 533
-        width: 113
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -523,7 +523,7 @@ TextureImporter:
         serializedVersion: 2
         x: 54
         y: 277
-        width: 111
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -567,7 +567,7 @@ TextureImporter:
         serializedVersion: 2
         x: 314
         y: 277
-        width: 107
+        width: 120
         height: 213
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -589,7 +589,7 @@ TextureImporter:
         serializedVersion: 2
         x: 571
         y: 276
-        width: 106
+        width: 120
         height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -611,7 +611,7 @@ TextureImporter:
         serializedVersion: 2
         x: 829
         y: 277
-        width: 104
+        width: 120
         height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -633,7 +633,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1086
         y: 277
-        width: 103
+        width: 120
         height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -655,7 +655,7 @@ TextureImporter:
         serializedVersion: 2
         x: 78
         y: 21
-        width: 87
+        width: 120
         height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -677,7 +677,7 @@ TextureImporter:
         serializedVersion: 2
         x: 336
         y: 21
-        width: 85
+        width: 120
         height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -699,7 +699,7 @@ TextureImporter:
         serializedVersion: 2
         x: 593
         y: 21
-        width: 84
+        width: 120
         height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -721,7 +721,7 @@ TextureImporter:
         serializedVersion: 2
         x: 850
         y: 21
-        width: 83
+        width: 120
         height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -743,7 +743,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1106
         y: 21
-        width: 83
+        width: 120
         height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
