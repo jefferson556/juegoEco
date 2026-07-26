@@ -357,7 +357,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 125324245}
-  - component: {fileID: 125324246}
   - component: {fileID: 125324247}
   m_Layer: 0
   m_Name: InterfazSuperior
@@ -388,28 +387,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -25}
   m_SizeDelta: {x: -70, y: 110}
   m_Pivot: {x: 0.5, y: 1}
---- !u!114 &125324246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125324244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 080c2927688d2d44ebff52919199761d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InterfazJugador
-  rellenoVida: {fileID: 0}
-  rellenoCorrupcion: {fileID: 0}
-  textoCristales: {fileID: 0}
-  textoTiempo: {fileID: 0}
-  vidaMaxima: 100
-  vidaActual: 100
-  corrupcionMaxima: 100
-  corrupcionActual: 0
-  cristales: 0
-  tiempoRestante: 90
 --- !u!114 &125324247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -867,25 +844,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2534929995528180366, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
+      propertyPath: characterJump
+      value: 
+      objectReference: {fileID: 737656967}
+    - target: {fileID: 2534929995528180366, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
+      propertyPath: showDebugLogs
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6232070856986341267, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
       propertyPath: m_Name
       value: EcoCharacter
       objectReference: {fileID: 0}
-    - target: {fileID: 7149019805074775661, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
-      propertyPath: groundLayer.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
+    - target: {fileID: 7397791815734399968, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
+      propertyPath: characterHealth
+      value: 
+      objectReference: {fileID: 847396734}
     - target: {fileID: 8717761316395219602, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
-      propertyPath: m_Enabled
-      value: 1
+      propertyPath: showDebugLogs
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6232070856986341267, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 737656966}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
 --- !u!1 &737656957 stripped
 GameObject:
@@ -903,23 +885,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a4701bbb19e0d5438ff48f9570a4b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInputReader
---- !u!114 &737656966
+--- !u!114 &737656967 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7149019805074775661, guid: f057bead5abc9bc4c87a619d6f29deb3, type: 3}
+  m_PrefabInstance: {fileID: 737656956}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737656957}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7f781d39ac08b044aa2a146b0accf20, type: 3}
+  m_Script: {fileID: 11500000, guid: ba71df2f9772f6244943f1ad4faeea7e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ShadowDamageReceiver
-  characterHealth: {fileID: 847396734}
-  damagePerHit: 15
-  hitCooldown: 0.75
-  enemyTag: Enemy
-  showDebugLogs: 1
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterJump
 --- !u!1 &746965946
 GameObject:
   m_ObjectHideFlags: 0
@@ -2363,6 +2339,10 @@ PrefabInstance:
     - target: {fileID: 7577159521601831250, guid: 1ae486519755571479b788da6dc880f6, type: 3}
       propertyPath: m_Name
       value: EnemigoFacilPatrulla
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577159521601831250, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

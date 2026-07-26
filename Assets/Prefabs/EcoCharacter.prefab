@@ -205,9 +205,9 @@ GameObject:
   - component: {fileID: 3248271736140744220}
   - component: {fileID: 2534929995528180366}
   - component: {fileID: 8432905682828633872}
-  - component: {fileID: 5563441479875878726}
   - component: {fileID: 8717761316395219602}
   - component: {fileID: 7149019805074775661}
+  - component: {fileID: 7397791815734399968}
   m_Layer: 0
   m_Name: EcoCharacter
   m_TagString: Untagged
@@ -325,19 +325,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 942b1caff67b4b7438718fd77308a33b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterController2D
---- !u!114 &5563441479875878726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6232070856986341267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1bf885cafd059c40b933ad64dc753aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CharacterAutoMovement
-  arrivalDistance: 0.1
 --- !u!114 &8717761316395219602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,3 +357,20 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &7397791815734399968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6232070856986341267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f781d39ac08b044aa2a146b0accf20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShadowDamageReceiver
+  characterHealth: {fileID: 0}
+  damagePerHit: 15
+  damageInterval: 0.75
+  enemyTag: Enemy
+  showDebugLogs: 1
