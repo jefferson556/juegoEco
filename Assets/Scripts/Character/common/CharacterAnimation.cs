@@ -14,6 +14,9 @@ public class CharacterAnimation : MonoBehaviour
     private static readonly int IsCrouchingParameter =
         Animator.StringToHash("IsCr");
 
+    private static readonly int AttackTriggerParameter =
+        Animator.StringToHash("Attack");
+
     [Header("Referencias")]
     [SerializeField]
     private Animator animator;
@@ -93,6 +96,13 @@ public class CharacterAnimation : MonoBehaviour
                 0f
             );
         }
+    }
+
+    public void SetAttack()
+    {
+        animator?.SetTrigger(
+            AttackTriggerParameter
+        );
     }
 
     public void SetIdle()
