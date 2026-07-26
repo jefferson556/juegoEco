@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: 44a5e5999cbd0774c9d1f0a67c945e2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4581978248016623207
+    second: yu-run_0
+  - first:
+      213: 7174986047403489670
+    second: yu-run_1
+  - first:
+      213: -962864658178734150
+    second: yu-run_2
+  - first:
+      213: -8265827454397627812
+    second: yu-run_3
+  - first:
+      213: -4753248354608579403
+    second: yu-run_4
+  - first:
+      213: 1165435564595014872
+    second: yu-run_5
+  - first:
+      213: -5920676870127916671
+    second: yu-run_6
+  - first:
+      213: 8493240941747990180
+    second: yu-run_7
+  - first:
+      213: -4296866607528355414
+    second: yu-run_8
+  - first:
+      213: -8282042171746857074
+    second: yu-run_9
+  - first:
+      213: 3538691863847322985
+    second: yu-run_10
+  - first:
+      213: -7016528433993774862
+    second: yu-run_11
+  - first:
+      213: -4112451898542662422
+    second: yu-run_12
+  - first:
+      213: -6411709120735643217
+    second: yu-run_13
+  - first:
+      213: -749975846288452447
+    second: yu-run_14
+  - first:
+      213: -7247632454429735744
+    second: yu-run_15
+  - first:
+      213: 3058634087635629897
+    second: yu-run_16
+  - first:
+      213: 7817208426786235331
+    second: yu-run_17
+  - first:
+      213: -3410602888720946968
+    second: yu-run_18
+  - first:
+      213: -9167332245553708220
+    second: yu-run_19
+  - first:
+      213: 1284781752652600752
+    second: yu-run_20
+  - first:
+      213: 2685619409227860724
+    second: yu-run_21
+  - first:
+      213: -331646642768872405
+    second: yu-run_22
+  - first:
+      213: -5941052806287585158
+    second: yu-run_23
+  - first:
+      213: 8745440178364077611
+    second: yu-run_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yu-run_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1061
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999076e4f0b8960c0800000000000000
+      internalID: -4581978248016623207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1061
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6897edf9bcba29360800000000000000
+      internalID: 7174986047403489670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1061
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab78a72e1b733a2f0800000000000000
+      internalID: -962864658178734150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1061
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5245f579b1e94d80800000000000000
+      internalID: -8265827454397627812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_4
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1061
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc78562ec1190eb0800000000000000
+      internalID: -4753248354608579403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 796
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcea44a8757c2010800000000000000
+      internalID: 1165435564595014872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_6
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 796
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189672671c785dda0800000000000000
+      internalID: -5920676870127916671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_7
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 796
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae61bc23ad0ed570800000000000000
+      internalID: 8493240941747990180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_8
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 796
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9d80316967e54c0800000000000000
+      internalID: -4296866607528355414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_9
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 796
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f49326686401d80800000000000000
+      internalID: -8282042171746857074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 531
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9654f2a5085fb1130800000000000000
+      internalID: 3538691863847322985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 531
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f88f5f709840ae90800000000000000
+      internalID: -7016528433993774862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_12
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 531
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecdb7779c2ade6c0800000000000000
+      internalID: -4112451898542662422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_13
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 531
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa97b6f76880507a0800000000000000
+      internalID: -6411709120735643217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_14
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 531
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a49adbf0fc8795f0800000000000000
+      internalID: -749975846288452447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 266
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c48f1baeac3b6b90800000000000000
+      internalID: -7247632454429735744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_16
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 266
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9473c635f73727a20800000000000000
+      internalID: 3058634087635629897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_17
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 266
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3a8c595ad4c7c60800000000000000
+      internalID: 7817208426786235331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_18
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 266
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8eddb2eba1ba0d0800000000000000
+      internalID: -3410602888720946968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_19
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 266
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44389cda4e717c080800000000000000
+      internalID: -9167332245553708220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b513cc623674d110800000000000000
+      internalID: 1284781752652600752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4facbe8af9c354520800000000000000
+      internalID: 2685619409227860724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_22
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c7fc2b221c56bf0800000000000000
+      internalID: -331646642768872405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_23
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70146123f32d8da0800000000000000
+      internalID: -5941052806287585158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yu-run_24
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26d1d3c18b0e5970800000000000000
+      internalID: 8745440178364077611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bc20d67ba3299804ca0dad4426903d56
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":188.0,"y":219.0},"gridSpriteOffset":{"x":16.0,"y":0.0},"gridSpritePadding":{"x":81.0,"y":46.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      yu-run_0: -4581978248016623207
+      yu-run_1: 7174986047403489670
+      yu-run_10: 3538691863847322985
+      yu-run_11: -7016528433993774862
+      yu-run_12: -4112451898542662422
+      yu-run_13: -6411709120735643217
+      yu-run_14: -749975846288452447
+      yu-run_15: -7247632454429735744
+      yu-run_16: 3058634087635629897
+      yu-run_17: 7817208426786235331
+      yu-run_18: -3410602888720946968
+      yu-run_19: -9167332245553708220
+      yu-run_2: -962864658178734150
+      yu-run_20: 1284781752652600752
+      yu-run_21: 2685619409227860724
+      yu-run_22: -331646642768872405
+      yu-run_23: -5941052806287585158
+      yu-run_24: 8745440178364077611
+      yu-run_3: -8265827454397627812
+      yu-run_4: -4753248354608579403
+      yu-run_5: 1165435564595014872
+      yu-run_6: -5920676870127916671
+      yu-run_7: 8493240941747990180
+      yu-run_8: -4296866607528355414
+      yu-run_9: -8282042171746857074
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
