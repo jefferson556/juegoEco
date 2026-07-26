@@ -1,0 +1,823 @@
+fileFormatVersion: 2
+guid: be6ba80970cb38340b5e69ff4b08a047
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7122828855521636748
+    second: respira-quieto_respirando_0
+  - first:
+      213: -3843535723005742579
+    second: respira-quieto_respirando_1
+  - first:
+      213: -7159417062177134663
+    second: respira-quieto_respirando_2
+  - first:
+      213: -5763225688434287221
+    second: respira-quieto_respirando_3
+  - first:
+      213: -6758493563710407519
+    second: respira-quieto_respirando_4
+  - first:
+      213: -4870842686672336657
+    second: respira-quieto_respirando_5
+  - first:
+      213: 2347997971249567083
+    second: respira-quieto_respirando_6
+  - first:
+      213: 3475240173255646224
+    second: respira-quieto_respirando_7
+  - first:
+      213: 2302355285116299
+    second: respira-quieto_respirando_8
+  - first:
+      213: -3374227870200806162
+    second: respira-quieto_respirando_9
+  - first:
+      213: 8312972269430757349
+    second: respira-quieto_respirando_10
+  - first:
+      213: -3470905906125073582
+    second: respira-quieto_respirando_11
+  - first:
+      213: 8899957415799261618
+    second: respira-quieto_respirando_12
+  - first:
+      213: -5349937742545217063
+    second: respira-quieto_respirando_13
+  - first:
+      213: 4041234447036236909
+    second: respira-quieto_respirando_14
+  - first:
+      213: 3330955950243037935
+    second: respira-quieto_respirando_15
+  - first:
+      213: -1191436528708743580
+    second: respira-quieto_respirando_16
+  - first:
+      213: 7291647772535388348
+    second: respira-quieto_respirando_17
+  - first:
+      213: -6003797353236228000
+    second: respira-quieto_respirando_18
+  - first:
+      213: -2144373376439220442
+    second: respira-quieto_respirando_19
+  - first:
+      213: 535469775064747006
+    second: respira-quieto_respirando_20
+  - first:
+      213: 5751935541955645623
+    second: respira-quieto_respirando_21
+  - first:
+      213: -7919599871546059905
+    second: respira-quieto_respirando_22
+  - first:
+      213: -5508455208157452656
+    second: respira-quieto_respirando_23
+  - first:
+      213: -618251894119263791
+    second: respira-quieto_respirando_24
+  - first:
+      213: 9180550341690570140
+    second: respira-quieto_respirando_25
+  - first:
+      213: 2286473632920156034
+    second: respira-quieto_respirando_26
+  - first:
+      213: 8164862704974217247
+    second: respira-quieto_respirando_27
+  - first:
+      213: -5452703191973334347
+    second: respira-quieto_respirando_28
+  - first:
+      213: -2084449820237273571
+    second: respira-quieto_respirando_29
+  - first:
+      213: -7209611919108178215
+    second: respira-quieto_respirando_30
+  - first:
+      213: 558759519257491500
+    second: respira-quieto_respirando_31
+  - first:
+      213: -154038302965839124
+    second: respira-quieto_respirando_32
+  - first:
+      213: -4131031723563646662
+    second: respira-quieto_respirando_33
+  - first:
+      213: -5673480364520942894
+    second: respira-quieto_respirando_34
+  - first:
+      213: -9109959389028575754
+    second: respira-quieto_respirando_35
+  - first:
+      213: -8630020423260254892
+    second: respira-quieto_respirando_36
+  - first:
+      213: -300636586383186593
+    second: respira-quieto_respirando_37
+  - first:
+      213: -2452778349245932756
+    second: respira-quieto_respirando_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: respira-quieto_respirando_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1044
+        width: 81
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e0bbee4e0a62d90800000000000000
+      internalID: -7122828855521636748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1045
+        width: 86
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02f7b4bf9409aac0800000000000000
+      internalID: -3843535723005742579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1045
+        width: 90
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7af0a3d14a4ac90800000000000000
+      internalID: -7159417062177134663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1045
+        width: 92
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dd77075c8e400b0800000000000000
+      internalID: -5763225688434287221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_5
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1044
+        width: 95
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe80610226a476cb0800000000000000
+      internalID: -4870842686672336657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 788
+        width: 102
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7d71b2c3c9d5370800000000000000
+      internalID: 8312972269430757349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_12
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 788
+        width: 105
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b981dc9d10038b70800000000000000
+      internalID: 8899957415799261618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_14
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 789
+        width: 113
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64caa57159551830800000000000000
+      internalID: 4041234447036236909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_17
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 788
+        width: 112
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb87d3d2403213560800000000000000
+      internalID: 7291647772535388348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_20
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 788
+        width: 114
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb41b26cee5e6700800000000000000
+      internalID: 535469775064747006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_24
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 533
+        width: 74
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d11f4d8d278b67f0800000000000000
+      internalID: -618251894119263791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_25
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 533
+        width: 74
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95be0725edd76f70800000000000000
+      internalID: 9180550341690570140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_26
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 533
+        width: 72
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287b086a7af2bbf10800000000000000
+      internalID: 2286473632920156034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_27
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 533
+        width: 70
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10c2d1fe5b6f4170800000000000000
+      internalID: 8164862704974217247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_28
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 533
+        width: 70
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b27ac8265b1454b0800000000000000
+      internalID: -5452703191973334347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_29
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 277
+        width: 70
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1661a0beeb8213e0800000000000000
+      internalID: -2084449820237273571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_30
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 277
+        width: 69
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de7221682052fb90800000000000000
+      internalID: -7209611919108178215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_31
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 277
+        width: 69
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28f53482dc11c700800000000000000
+      internalID: 558759519257491500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_32
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 277
+        width: 67
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceacae5cafebcddf0800000000000000
+      internalID: -154038302965839124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_33
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 277
+        width: 67
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a318e19d880aba6c0800000000000000
+      internalID: -4131031723563646662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_34
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 21
+        width: 67
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d25398faafb341b0800000000000000
+      internalID: -5673480364520942894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_35
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 21
+        width: 66
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f597bac33ce29180800000000000000
+      internalID: -9109959389028575754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_36
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 21
+        width: 67
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dc43b16220c3880800000000000000
+      internalID: -8630020423260254892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_37
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 21
+        width: 66
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55e4261e9ce3dbf0800000000000000
+      internalID: -300636586383186593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: respira-quieto_respirando_38
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 21
+        width: 66
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b5d64361bf5fdd0800000000000000
+      internalID: -2452778349245932756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: de9ea759315bca54d9dfc6c31c75791e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      respira-quieto_respirando_0: -7122828855521636748
+      respira-quieto_respirando_1: -3843535723005742579
+      respira-quieto_respirando_10: 8312972269430757349
+      respira-quieto_respirando_11: -3470905906125073582
+      respira-quieto_respirando_12: 8899957415799261618
+      respira-quieto_respirando_13: -5349937742545217063
+      respira-quieto_respirando_14: 4041234447036236909
+      respira-quieto_respirando_15: 3330955950243037935
+      respira-quieto_respirando_16: -1191436528708743580
+      respira-quieto_respirando_17: 7291647772535388348
+      respira-quieto_respirando_18: -6003797353236228000
+      respira-quieto_respirando_19: -2144373376439220442
+      respira-quieto_respirando_2: -7159417062177134663
+      respira-quieto_respirando_20: 535469775064747006
+      respira-quieto_respirando_21: 5751935541955645623
+      respira-quieto_respirando_22: -7919599871546059905
+      respira-quieto_respirando_23: -5508455208157452656
+      respira-quieto_respirando_24: -618251894119263791
+      respira-quieto_respirando_25: 9180550341690570140
+      respira-quieto_respirando_26: 2286473632920156034
+      respira-quieto_respirando_27: 8164862704974217247
+      respira-quieto_respirando_28: -5452703191973334347
+      respira-quieto_respirando_29: -2084449820237273571
+      respira-quieto_respirando_3: -5763225688434287221
+      respira-quieto_respirando_30: -7209611919108178215
+      respira-quieto_respirando_31: 558759519257491500
+      respira-quieto_respirando_32: -154038302965839124
+      respira-quieto_respirando_33: -4131031723563646662
+      respira-quieto_respirando_34: -5673480364520942894
+      respira-quieto_respirando_35: -9109959389028575754
+      respira-quieto_respirando_36: -8630020423260254892
+      respira-quieto_respirando_37: -300636586383186593
+      respira-quieto_respirando_38: -2452778349245932756
+      respira-quieto_respirando_4: -6758493563710407519
+      respira-quieto_respirando_5: -4870842686672336657
+      respira-quieto_respirando_6: 2347997971249567083
+      respira-quieto_respirando_7: 3475240173255646224
+      respira-quieto_respirando_8: 2302355285116299
+      respira-quieto_respirando_9: -3374227870200806162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
