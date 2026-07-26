@@ -40,6 +40,14 @@ public class CharacterSwitchController : MonoBehaviour
     [SerializeField]
     private bool allowEarlyReturn = true;
 
+    [Header("Consumo de vida")]
+    [SerializeField]
+    private CharacterHealth characterHealth;
+
+    [SerializeField]
+    [Min(0f)]
+    private float lifeDrainPerSecond = 3.34f;
+
     [Header("Debug")]
     [SerializeField]
     private bool showDebugLogs = true;
@@ -64,6 +72,11 @@ public class CharacterSwitchController : MonoBehaviour
 
     private void Update()
     {
+        if (IsControllingShadow)
+        {
+            DrainLife();
+        }
+
         if (!Input.GetKeyDown(switchKey))
         {
             return;
@@ -97,6 +110,7 @@ public class CharacterSwitchController : MonoBehaviour
         if (mainAnimation != null)
         {
             mainAnimation.SetCrouching(false);
+            mainAnimation.SetIdle();
         }
 
         if (mainInput != null)
@@ -106,7 +120,7 @@ public class CharacterSwitchController : MonoBehaviour
 
         if (shadowInput != null)
         {
-            shadowInput.DisableInput();
+            shadowInput.DisableInputAndControl();
         }
 
         if (shadowCharacter != null)
@@ -121,6 +135,15 @@ public class CharacterSwitchController : MonoBehaviour
     {
         if (IsControllingShadow)
         {
+            return;
+        }
+
+        if (
+            characterHealth != null &&
+            !characterHealth.HasLife
+        )
+        {
+            Log("No se puede usar la sombra: no queda vida.");
             return;
         }
 
@@ -145,7 +168,7 @@ public class CharacterSwitchController : MonoBehaviour
         controlledCharacter =
             ControlledCharacter.Shadow;
 
-        mainInput.DisableInput();
+        mainInput.DisableInputAndControl();
         mainAnimation.SetCrouching(true);
 
         SpawnShadow();
@@ -184,7 +207,7 @@ public class CharacterSwitchController : MonoBehaviour
 
         if (shadowInput != null)
         {
-            shadowInput.DisableInput();
+            shadowInput.DisableInputAndControl();
         }
 
         if (shadowCharacter != null)
@@ -206,6 +229,23 @@ public class CharacterSwitchController : MonoBehaviour
         Log("Control devuelto al personaje principal.");
     }
 
+    private void DrainLife()
+    {
+        if (characterHealth == null)
+        {
+            return;
+        }
+
+        characterHealth.ConsumeLife(
+            lifeDrainPerSecond * Time.deltaTime
+        );
+
+        if (!characterHealth.HasLife)
+        {
+            ReturnToMainCharacter();
+        }
+    }
+
     private void SpawnShadow()
     {
         Transform shadowTransform =
@@ -225,7 +265,6 @@ public class CharacterSwitchController : MonoBehaviour
         while (RemainingTime > 0f)
         {
             RemainingTime -= Time.deltaTime;
-
             yield return null;
         }
 
@@ -281,6 +320,15 @@ public class CharacterSwitchController : MonoBehaviour
         {
             Debug.LogError(
                 "Falta asignar Shadow Input.",
+                this
+            );
+        }
+
+        if (characterHealth == null)
+        {
+            Debug.LogWarning(
+                "No se asignó CharacterHealth. " +
+                "La sombra funcionará sin consumir vida.",
                 this
             );
         }
