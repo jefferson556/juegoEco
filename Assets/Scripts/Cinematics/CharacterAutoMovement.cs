@@ -4,36 +4,17 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController2D))]
 public class CharacterAutoMovement : MonoBehaviour
 {
-    [Header("Movimiento automático")]
+    [Header("Llegada")]
     [SerializeField]
     [Min(0.01f)]
     private float arrivalDistance = 0.1f;
 
-    [Header("Seguimiento")]
-    [SerializeField]
-    [Min(0.1f)]
-    private float followDistance = 1.5f;
-
     private CharacterController2D characterController;
-
-    private Transform followTarget;
-    private bool following;
-    private bool runWhileFollowing;
 
     private void Awake()
     {
         characterController =
             GetComponent<CharacterController2D>();
-    }
-
-    private void Update()
-    {
-        if (!following || followTarget == null)
-        {
-            return;
-        }
-
-        FollowCurrentTarget();
     }
 
     public IEnumerator MoveTo(
@@ -44,14 +25,12 @@ public class CharacterAutoMovement : MonoBehaviour
         if (destination == null)
         {
             Debug.LogError(
-                "El punto de destino no está asignado.",
+                "No se asignó el destino del personaje.",
                 this
             );
 
             yield break;
         }
-
-        StopFollowing();
 
         while (
             Mathf.Abs(
@@ -76,46 +55,8 @@ public class CharacterAutoMovement : MonoBehaviour
         characterController.Stop();
     }
 
-    public void StartFollowing(
-        Transform target,
-        bool run = false
-    )
+    public void StopMovement()
     {
-        followTarget = target;
-        runWhileFollowing = run;
-        following = true;
-    }
-
-    public void StopFollowing()
-    {
-        following = false;
-        followTarget = null;
-
         characterController.Stop();
-    }
-
-    private void FollowCurrentTarget()
-    {
-        float horizontalDistance =
-            followTarget.position.x -
-            transform.position.x;
-
-        if (
-            Mathf.Abs(horizontalDistance) <=
-            followDistance
-        )
-        {
-            characterController.Stop();
-            return;
-        }
-
-        float direction = Mathf.Sign(
-            horizontalDistance
-        );
-
-        characterController.Move(
-            direction,
-            runWhileFollowing
-        );
     }
 }
