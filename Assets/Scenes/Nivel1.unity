@@ -1444,10 +1444,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1713216003}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 100, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 100, y: 52.5}
+  m_SizeDelta: {x: 200, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &925817906
 MonoBehaviour:
@@ -1980,7 +1980,7 @@ Transform:
   m_GameObject: {fileID: 1049161569}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1, y: -1.05, z: 0}
+  m_LocalPosition: {x: -0.09, y: -1.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2516,7 +2516,7 @@ Transform:
   m_GameObject: {fileID: 1422669814}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.59, y: -1.84, z: 0}
+  m_LocalPosition: {x: -8.41, y: -1.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2559,8 +2559,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.14921951, y: -0.24895889}
-  m_Size: {x: 0.798439, y: 1.7861406}
+  m_Offset: {x: -0.14921951, y: -0.20333937}
+  m_Size: {x: 0.798439, y: 2.1739058}
   m_Direction: 0
 --- !u!50 &1422669817
 Rigidbody2D:
@@ -2826,7 +2826,7 @@ Transform:
   m_GameObject: {fileID: 1459293935}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.14, z: 0}
+  m_LocalPosition: {x: 0, y: -0.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3471,9 +3471,9 @@ RectTransform:
   m_Father: {fileID: 433945587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -608, y: 481.6}
-  m_SizeDelta: {x: -1670, y: 104.7}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1339, y: 312}
+  m_SizeDelta: {x: 287, y: 85}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1713216004
 MonoBehaviour:
@@ -3488,7 +3488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

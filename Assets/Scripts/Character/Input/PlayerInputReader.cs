@@ -11,19 +11,24 @@ public class PlayerInputReader : MonoBehaviour
 
     private void Awake()
     {
-        FindCharacterController();
+        characterController =
+            GetComponent<CharacterController2D>();
+
+        if (characterController == null)
+        {
+            Debug.LogError(
+                "No se encontró CharacterController2D.",
+                this
+            );
+        }
     }
 
     private void Update()
     {
-        if (!inputEnabled)
-        {
-            return;
-        }
-
-        FindCharacterController();
-
-        if (characterController == null)
+        if (
+            !inputEnabled ||
+            characterController == null
+        )
         {
             return;
         }
@@ -56,50 +61,18 @@ public class PlayerInputReader : MonoBehaviour
 
     public void EnableInput()
     {
-        FindCharacterController();
-
         inputEnabled = true;
 
-        if (characterController == null)
-        {
-            return;
-        }
-
-        characterController.EnableControl();
+        characterController?.EnableControl();
     }
 
     public void DisableInput()
     {
-        FindCharacterController();
-
         inputEnabled = false;
 
-        if (characterController == null)
-        {
-            return;
-        }
-
-        characterController.Stop();
-        characterController.DisableControl();
-    }
-
-    private void FindCharacterController()
-    {
-        if (characterController != null)
-        {
-            return;
-        }
-
-        characterController =
-            GetComponent<CharacterController2D>();
-
-        if (characterController == null)
-        {
-            Debug.LogError(
-                "No se encontró CharacterController2D " +
-                "en el mismo objeto.",
-                this
-            );
-        }
+        // Solo detiene la orden manual actual.
+        // No desactiva CharacterMovement porque
+        // la cinemática debe seguir moviéndolo.
+        characterController?.Stop();
     }
 }
