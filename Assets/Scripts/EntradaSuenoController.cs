@@ -1,131 +1,229 @@
 using System.Collections;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine;
+//using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class EntradaSuenoController : MonoBehaviour
 {
-    [Header("UI References")]
+    [SerializeField]
+    private SceneLoader sceneLoader;
+    [Header("Referencias UI")]
     [SerializeField] private Image transicionNegra;
     [SerializeField] private TextMeshProUGUI textoNarrativo;
     [SerializeField] private Button botonOmitir;
 
-    [Header("Transition Settings")]
-    [SerializeField] private float fadeDuration = 1.5f;
-    [SerializeField] private float typingSpeed = 0.05f;
-    [SerializeField] private float delayBetweenTexts = 3.0f;
+    [Header("Narración")]
+    [SerializeField]
+    [TextArea(2, 5)]
+    private string[] textosNarrativos =
+    {
+        "No sabía si estaba despierto...\n" +
+        "o si aquel lugar llevaba años esperándome.",
+
+        "Cuando abrió los ojos,\n" +
+        "el sueño ya había comenzado."
+    };
+
+    [Header("Duraciones")]
+    [SerializeField]
+    [Min(0.01f)]
+    private float fadeDuration = 1.5f;
+
+    [SerializeField]
+    [Min(0.001f)]
+    private float typingSpeed = 0.05f;
+
+    [SerializeField]
+    [Min(0f)]
+    private float delayBetweenTexts = 3f;
+
+    [Header("Escena siguiente")]
     [SerializeField] private string nextSceneName = "Nivel1";
 
-    private bool isTransitioning = false;
     private Coroutine introCoroutine;
+    private bool isTransitioning;
+    private bool sceneLoadStarted;
 
-    private string[] narrativeTexts = new string[]
+    private void Awake()
     {
-        "No sabía si estaba despierto...\no si aquel lugar llevaba años esperándome.",
-        "Cuando abrió los ojos,\nel sueño ya había comenzado."
-    };
+        PrepareInitialState();
+    }
 
     private void Start()
     {
-        // Ensure starting state
-        if (transicionNegra != null)
+        if (!ValidateReferences())
         {
-            Color c = transicionNegra.color;
-            c.a = 1.0f; // Start fully black
-            transicionNegra.color = c;
-            transicionNegra.gameObject.SetActive(true);
+            enabled = false;
+            return;
         }
 
-        if (textoNarrativo != null)
-        {
-            textoNarrativo.text = "";
-        }
-
-        if (botonOmitir != null)
-        {
-            botonOmitir.onClick.AddListener(SkipIntro);
-        }
-
-        // Start the sequence
+        botonOmitir.onClick.AddListener(SkipIntro);
         introCoroutine = StartCoroutine(RunIntroSequence());
     }
 
     private void Update()
     {
-        // Allow skipping using Space or Enter keys
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+        if (isTransitioning)
+        {
+            return;
+        }
+
+        bool skipPressed =
+            Input.GetKeyDown(KeyCode.Space) ||
+            Input.GetKeyDown(KeyCode.Return) ||
+            Input.GetKeyDown(KeyCode.KeypadEnter);
+
+        if (skipPressed)
         {
             SkipIntro();
         }
     }
 
+    private void OnDestroy()
+    {
+        if (botonOmitir != null)
+        {
+            botonOmitir.onClick.RemoveListener(SkipIntro);
+        }
+    }
+
+    private void PrepareInitialState()
+    {
+        if (transicionNegra != null)
+        {
+            SetTransitionAlpha(1f);
+            transicionNegra.gameObject.SetActive(true);
+        }
+
+        if (textoNarrativo != null)
+        {
+            textoNarrativo.text = string.Empty;
+        }
+    }
+
+    private bool ValidateReferences()
+    {
+        if (transicionNegra == null)
+        {
+            Debug.LogError(
+                "Falta asignar TransicionNegra.",
+                this
+            );
+
+            return false;
+        }
+
+        if (textoNarrativo == null)
+        {
+            Debug.LogError(
+                "Falta asignar TextoNarrativo.",
+                this
+            );
+
+            return false;
+        }
+
+        if (botonOmitir == null)
+        {
+            Debug.LogError(
+                "Falta asignar BotonOmitir.",
+                this
+            );
+
+            return false;
+        }
+
+        return true;
+    }
+
     private IEnumerator RunIntroSequence()
     {
-        // 1. Fade from black to transparent
-        yield return StartCoroutine(FadeScreen(1.0f, 0.0f));
+        yield return FadeScreen(1f, 0f, fadeDuration);
 
-        // 2. Display first text
-        yield return StartCoroutine(TypeText(narrativeTexts[0]));
-        yield return new WaitForSeconds(delayBetweenTexts);
+        foreach (string narrativeText in textosNarrativos)
+        {
+            textoNarrativo.text = string.Empty;
 
-        // 3. Display second text (clear first text first)
-        if (textoNarrativo != null) textoNarrativo.text = "";
-        yield return StartCoroutine(TypeText(narrativeTexts[1]));
-        yield return new WaitForSeconds(delayBetweenTexts);
+            yield return TypeText(narrativeText);
+            yield return new WaitForSeconds(delayBetweenTexts);
+        }
 
-        // 4. Fade to black
-        yield return StartCoroutine(FadeScreen(0.0f, 1.0f));
+        isTransitioning = true;
 
-        // 5. Load next scene
+        yield return FadeScreen(
+            transicionNegra.color.a,
+            1f,
+            fadeDuration
+        );
+
         LoadNextScene();
     }
 
-    private IEnumerator FadeScreen(float startAlpha, float endAlpha)
+    private IEnumerator TypeText(string text)
     {
-        if (transicionNegra == null) yield break;
+        textoNarrativo.text = string.Empty;
 
-        transicionNegra.gameObject.SetActive(true);
-        float elapsed = 0.0f;
-        Color c = transicionNegra.color;
-
-        while (elapsed < fadeDuration)
+        foreach (char character in text)
         {
-            elapsed += Time.deltaTime;
-            c.a = Mathf.Lerp(startAlpha, endAlpha, elapsed / fadeDuration);
-            transicionNegra.color = c;
+            textoNarrativo.text += character;
+
+            yield return new WaitForSeconds(
+                typingSpeed
+            );
+        }
+    }
+
+    private IEnumerator FadeScreen(
+        float startAlpha,
+        float endAlpha,
+        float duration
+    )
+    {
+        transicionNegra.gameObject.SetActive(true);
+
+        float elapsedTime = 0f;
+
+        while (elapsedTime < duration)
+        {
+            elapsedTime += Time.deltaTime;
+
+            float progress = Mathf.Clamp01(
+                elapsedTime / duration
+            );
+
+            float alpha = Mathf.Lerp(
+                startAlpha,
+                endAlpha,
+                progress
+            );
+
+            SetTransitionAlpha(alpha);
+
             yield return null;
         }
 
-        c.a = endAlpha;
-        transicionNegra.color = c;
+        SetTransitionAlpha(endAlpha);
 
-        if (endAlpha <= 0.0f)
+        if (endAlpha <= 0f)
         {
             transicionNegra.gameObject.SetActive(false);
         }
     }
 
-    private IEnumerator TypeText(string text)
-    {
-        if (textoNarrativo == null) yield break;
-
-        textoNarrativo.text = "";
-        foreach (char letter in text.ToCharArray())
-        {
-            textoNarrativo.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
-        }
-    }
-
     public void SkipIntro()
     {
-        if (isTransitioning) return;
+        if (isTransitioning || sceneLoadStarted)
+        {
+            return;
+        }
 
-        Debug.Log("[EntradaSuenoController] Skipping intro...");
+        isTransitioning = true;
+
         if (introCoroutine != null)
         {
             StopCoroutine(introCoroutine);
+            introCoroutine = null;
         }
 
         StartCoroutine(SkipSequence());
@@ -133,20 +231,49 @@ public class EntradaSuenoController : MonoBehaviour
 
     private IEnumerator SkipSequence()
     {
-        isTransitioning = true;
+        if (textoNarrativo != null)
+        {
+            textoNarrativo.text = string.Empty;
+        }
 
-        // Fade quickly to black and load scene
-        yield return StartCoroutine(FadeScreen(transicionNegra != null ? transicionNegra.color.a : 0.0f, 1.0f));
+        float currentAlpha = transicionNegra.color.a;
+
+        yield return FadeScreen(
+            currentAlpha,
+            1f,
+            0.35f
+        );
+
         LoadNextScene();
     }
 
     private void LoadNextScene()
     {
-        // Prevent loading scene multiple times
-        if (isTransitioning && SceneManager.GetActiveScene().name == nextSceneName) return; 
-        
-        isTransitioning = true;
-        Debug.Log($"[EntradaSuenoController] Loading scene: {nextSceneName}");
-        SceneManager.LoadScene(nextSceneName);
+        if (sceneLoadStarted)
+        {
+            return;
+        }
+
+        sceneLoadStarted = true;
+
+        if (sceneLoader == null)
+        {
+            Debug.LogError(
+                "SceneLoader no está asignado.",
+                this
+            );
+
+            sceneLoadStarted = false;
+            return;
+        }
+
+        sceneLoader.LoadScene(nextSceneName);
+    }
+
+    private void SetTransitionAlpha(float alpha)
+    {
+        Color transitionColor = transicionNegra.color;
+        transitionColor.a = Mathf.Clamp01(alpha);
+        transicionNegra.color = transitionColor;
     }
 }
