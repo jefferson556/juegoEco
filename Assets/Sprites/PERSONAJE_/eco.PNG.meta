@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: a73ba338fe7e200459f16fcbfbf70bcd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6640743768475525804
+    second: eco_0
+  - first:
+      213: 1567499899559861268
+    second: eco_1
+  - first:
+      213: 2588786333673629322
+    second: eco_2
+  - first:
+      213: 310480758947648698
+    second: eco_3
+  - first:
+      213: 1913174868217328725
+    second: eco_4
+  - first:
+      213: 9189947490334020224
+    second: eco_5
+  - first:
+      213: 4214565560163694362
+    second: eco_6
+  - first:
+      213: -5401577689944531732
+    second: eco_7
+  - first:
+      213: 6524380237978564772
+    second: eco_8
+  - first:
+      213: -1159222755143462715
+    second: eco_9
+  - first:
+      213: -1520885203749916307
+    second: eco_10
+  - first:
+      213: 5915836011645216039
+    second: eco_11
+  - first:
+      213: -1199947433118811699
+    second: eco_12
+  - first:
+      213: 4495063630004032074
+    second: eco_13
+  - first:
+      213: -5686374724452440495
+    second: eco_14
+  - first:
+      213: -6414377007237714876
+    second: eco_15
+  - first:
+      213: -7761475106457411352
+    second: eco_16
+  - first:
+      213: 5732098047357807560
+    second: eco_17
+  - first:
+      213: -4548317794897128843
+    second: eco_18
+  - first:
+      213: 3379355361884433209
+    second: eco_19
+  - first:
+      213: -2408207031427457317
+    second: eco_20
+  - first:
+      213: -6909243067508513712
+    second: eco_21
+  - first:
+      213: -5504717832914387870
+    second: eco_22
+  - first:
+      213: -2886214210813573550
+    second: eco_23
+  - first:
+      213: -5859114033078803889
+    second: eco_24
+  - first:
+      213: 6758168474774783736
+    second: eco_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eco_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1072
+        width: 172
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca26f54f549a82c50800000000000000
+      internalID: 6640743768475525804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1073
+        width: 172
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cd9ba8ad0e0c510800000000000000
+      internalID: 1567499899559861268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_2
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1073
+        width: 175
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86a00a54773de320800000000000000
+      internalID: 2588786333673629322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_3
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1074
+        width: 172
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab41ba2fa9c0f4400800000000000000
+      internalID: 310480758947648698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_4
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1074
+        width: 105
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5547c4df766fc8a10800000000000000
+      internalID: 1913174868217328725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 817
+        width: 170
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0821ad15d80498f70800000000000000
+      internalID: 9189947490334020224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_6
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 817
+        width: 182
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17f6281c052d7a30800000000000000
+      internalID: 4214565560163694362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_7
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 817
+        width: 185
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec5e24b5bdb905b0800000000000000
+      internalID: -5401577689944531732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_8
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 817
+        width: 183
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a87a4042414b8a50800000000000000
+      internalID: 6524380237978564772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_9
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 817
+        width: 161
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0df18cb0d99efe0800000000000000
+      internalID: -1159222755143462715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 562
+        width: 114
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61b65617fab4eae0800000000000000
+      internalID: -1520885203749916307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 562
+        width: 154
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725a3975285491250800000000000000
+      internalID: 5915836011645216039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_12
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 562
+        width: 186
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9bfcbca2ee85fe0800000000000000
+      internalID: -1199947433118811699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_13
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 562
+        width: 189
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a421b2d3e8ca16e30800000000000000
+      internalID: 4495063630004032074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_14
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 562
+        width: 153
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156a049d050f511b0800000000000000
+      internalID: -5686374724452440495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 306
+        width: 120
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ca924c81e8bf6a0800000000000000
+      internalID: -6414377007237714876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_16
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 305
+        width: 169
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0a1924383b94490800000000000000
+      internalID: -7761475106457411352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_17
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 305
+        width: 185
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbe87addc08c8f40800000000000000
+      internalID: 5732098047357807560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_18
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 305
+        width: 190
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5729195401121e0c0800000000000000
+      internalID: -4548317794897128843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_19
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 305
+        width: 185
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93beeea0cc1e5ee20800000000000000
+      internalID: 3379355361884433209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 49
+        width: 175
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde1b22d674549ed0800000000000000
+      internalID: -2408207031427457317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_21
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 49
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054235e69007d10a0800000000000000
+      internalID: -6909243067508513712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_22
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 49
+        width: 145
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c3164db405b93b0800000000000000
+      internalID: -5504717832914387870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_23
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 49
+        width: 151
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256c5c2977b12f7d0800000000000000
+      internalID: -2886214210813573550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco_25
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 49
+        width: 165
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6c137eb66d9cd50800000000000000
+      internalID: 6758168474774783736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 225f2dc2a406dfc4590f78502a4a7832
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      eco_0: 6640743768475525804
+      eco_1: 1567499899559861268
+      eco_10: -1520885203749916307
+      eco_11: 5915836011645216039
+      eco_12: -1199947433118811699
+      eco_13: 4495063630004032074
+      eco_14: -5686374724452440495
+      eco_15: -6414377007237714876
+      eco_16: -7761475106457411352
+      eco_17: 5732098047357807560
+      eco_18: -4548317794897128843
+      eco_19: 3379355361884433209
+      eco_2: 2588786333673629322
+      eco_20: -2408207031427457317
+      eco_21: -6909243067508513712
+      eco_22: -5504717832914387870
+      eco_23: -2886214210813573550
+      eco_24: -5859114033078803889
+      eco_25: 6758168474774783736
+      eco_3: 310480758947648698
+      eco_4: 1913174868217328725
+      eco_5: 9189947490334020224
+      eco_6: 4214565560163694362
+      eco_7: -5401577689944531732
+      eco_8: 6524380237978564772
+      eco_9: -1159222755143462715
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
