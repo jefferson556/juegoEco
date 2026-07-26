@@ -5420,6 +5420,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 080c2927688d2d44ebff52919199761d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InterfazJugador
+  rellenoVida: {fileID: 0}
+  rellenoCorrupcion: {fileID: 0}
+  textoCristales: {fileID: 0}
+  textoTiempo: {fileID: 0}
+  vidaMaxima: 100
+  vidaActual: 100
+  corrupcionMaxima: 100
+  corrupcionActual: 0
+  cristales: 0
+  tiempoRestante: 90
 --- !u!1 &659822605
 GameObject:
   m_ObjectHideFlags: 0
@@ -5531,7 +5541,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4401430998032284367, guid: 87f66fed57c6ac945ab2b26015ba33ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13030,6 +13040,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1767190080
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.6590133
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1621065
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577159521601831250, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_Name
+      value: EnemigoFacilPatrulla
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ae486519755571479b788da6dc880f6, type: 3}
 --- !u!1 &1779224457
 GameObject:
   m_ObjectHideFlags: 0
@@ -14298,7 +14365,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4401430998032284367, guid: 87f66fed57c6ac945ab2b26015ba33ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -14808,3 +14875,4 @@ SceneRoots:
   - {fileID: 481962838}
   - {fileID: 1892946413}
   - {fileID: 1483746714}
+  - {fileID: 1767190080}

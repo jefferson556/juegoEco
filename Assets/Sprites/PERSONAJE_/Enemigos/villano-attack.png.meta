@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: 83ff9cc3a11dae048a98cbe14ec7c32f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5211428302340583543
+    second: villano-attack_0
+  - first:
+      213: -3883765595270993840
+    second: villano-attack_1
+  - first:
+      213: 8577764764329838529
+    second: villano-attack_2
+  - first:
+      213: 6814789970615474180
+    second: villano-attack_3
+  - first:
+      213: -5798458470255287810
+    second: villano-attack_4
+  - first:
+      213: 1974616534289628851
+    second: villano-attack_5
+  - first:
+      213: 1597641142567010000
+    second: villano-attack_6
+  - first:
+      213: 3426060121610678969
+    second: villano-attack_7
+  - first:
+      213: -9213351351644784880
+    second: villano-attack_8
+  - first:
+      213: -6559666825539778400
+    second: villano-attack_9
+  - first:
+      213: 6336003547246742093
+    second: villano-attack_10
+  - first:
+      213: 2544645146251645886
+    second: villano-attack_11
+  - first:
+      213: 7281689577699128134
+    second: villano-attack_12
+  - first:
+      213: -492489742837502823
+    second: villano-attack_13
+  - first:
+      213: -894358943527153008
+    second: villano-attack_14
+  - first:
+      213: 2835644650856131416
+    second: villano-attack_15
+  - first:
+      213: -6921700590554650836
+    second: villano-attack_16
+  - first:
+      213: 2945646990639363757
+    second: villano-attack_17
+  - first:
+      213: -6903784832066565457
+    second: villano-attack_18
+  - first:
+      213: 5602061434633822978
+    second: villano-attack_19
+  - first:
+      213: 6976389763128035500
+    second: villano-attack_20
+  - first:
+      213: 4405152587729634453
+    second: villano-attack_21
+  - first:
+      213: 5979313015498570326
+    second: villano-attack_22
+  - first:
+      213: 5707369827310848483
+    second: villano-attack_23
+  - first:
+      213: -3010639124101594731
+    second: villano-attack_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: villano-attack_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1061
+        width: 154
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f829202994da7b0800000000000000
+      internalID: -5211428302340583543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1061
+        width: 154
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0582df6a4c71a1ac0800000000000000
+      internalID: -3883765595270993840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_2
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1061
+        width: 154
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c70eb03b975a0770800000000000000
+      internalID: 8577764764329838529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1061
+        width: 164
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4081e693f5ff29e50800000000000000
+      internalID: 6814789970615474180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_4
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 1062
+        width: 195
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1249b2ebcb78fa0800000000000000
+      internalID: -5798458470255287810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 807
+        width: 205
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be32f5a64f376b10800000000000000
+      internalID: 1974616534289628851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 809
+        width: 179
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de714d8726fb2610800000000000000
+      internalID: 1597641142567010000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_7
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 809
+        width: 179
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b27cbf478fcb8f20800000000000000
+      internalID: 3426060121610678969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_8
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 809
+        width: 179
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017f85692c9932080800000000000000
+      internalID: -9213351351644784880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 809
+        width: 179
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a889cad6c167f4a0800000000000000
+      internalID: -6559666825539778400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 553
+        width: 179
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ac14918a10ee750800000000000000
+      internalID: 6336003547246742093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 552
+        width: 184
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb350c54745605320800000000000000
+      internalID: 2544645146251645886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_12
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 551
+        width: 163
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643bb634712cd0560800000000000000
+      internalID: 7281689577699128134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_13
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 550
+        width: 208
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ca5ae20335a29f0800000000000000
+      internalID: -492489742837502823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_14
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 550
+        width: 209
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092de5587499693f0800000000000000
+      internalID: -894358943527153008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 294
+        width: 197
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b248b39cb3a5720800000000000000
+      internalID: 2835644650856131416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 294
+        width: 182
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27e0625cfd21ff90800000000000000
+      internalID: -6921700590554650836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_17
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 292
+        width: 176
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6f1cec45a01e820800000000000000
+      internalID: 2945646990639363757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_18
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 292
+        width: 176
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa41f6e544d030a0800000000000000
+      internalID: -6903784832066565457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_19
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 294
+        width: 157
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203a34d91358ebd40800000000000000
+      internalID: 5602061434633822978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 39
+        width: 143
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca80bede68d11d060800000000000000
+      internalID: 6976389763128035500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_21
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 38
+        width: 144
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594840560fe322d30800000000000000
+      internalID: 4405152587729634453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_22
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 39
+        width: 192
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a79a10289caf250800000000000000
+      internalID: 5979313015498570326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 40
+        width: 199
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e945a67e96a43f40800000000000000
+      internalID: 5707369827310848483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: villano-attack_24
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 40
+        width: 199
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591080deaaf0836d0800000000000000
+      internalID: -3010639124101594731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bcbdbed007581a24281f48934e865006
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      villano-attack_0: -5211428302340583543
+      villano-attack_1: -3883765595270993840
+      villano-attack_10: 6336003547246742093
+      villano-attack_11: 2544645146251645886
+      villano-attack_12: 7281689577699128134
+      villano-attack_13: -492489742837502823
+      villano-attack_14: -894358943527153008
+      villano-attack_15: 2835644650856131416
+      villano-attack_16: -6921700590554650836
+      villano-attack_17: 2945646990639363757
+      villano-attack_18: -6903784832066565457
+      villano-attack_19: 5602061434633822978
+      villano-attack_2: 8577764764329838529
+      villano-attack_20: 6976389763128035500
+      villano-attack_21: 4405152587729634453
+      villano-attack_22: 5979313015498570326
+      villano-attack_23: 5707369827310848483
+      villano-attack_24: -3010639124101594731
+      villano-attack_3: 6814789970615474180
+      villano-attack_4: -5798458470255287810
+      villano-attack_5: 1974616534289628851
+      villano-attack_6: 1597641142567010000
+      villano-attack_7: 3426060121610678969
+      villano-attack_8: -9213351351644784880
+      villano-attack_9: -6559666825539778400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 7ec52ed6f2412104d891714b3fdb7f15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1370970611817086792
+    second: po-walk_0
+  - first:
+      213: 811194014347700988
+    second: po-walk_1
+  - first:
+      213: -1726492516728534463
+    second: po-walk_2
+  - first:
+      213: -6911205628815859768
+    second: po-walk_3
+  - first:
+      213: -5233822649778268792
+    second: po-walk_4
+  - first:
+      213: 553649539182541540
+    second: po-walk_5
+  - first:
+      213: 7447449170734118134
+    second: po-walk_6
+  - first:
+      213: 4865372940477889766
+    second: po-walk_7
+  - first:
+      213: -4753312572415777932
+    second: po-walk_8
+  - first:
+      213: 1307972438312467823
+    second: po-walk_9
+  - first:
+      213: 2785442888460139456
+    second: po-walk_10
+  - first:
+      213: -2875586872297509106
+    second: po-walk_11
+  - first:
+      213: 1628093835255045417
+    second: po-walk_12
+  - first:
+      213: 7723214653080699823
+    second: po-walk_13
+  - first:
+      213: 954681171888488813
+    second: po-walk_14
+  - first:
+      213: 4770658919209840501
+    second: po-walk_15
+  - first:
+      213: -6047796709276397826
+    second: po-walk_16
+  - first:
+      213: 4990379381045238996
+    second: po-walk_17
+  - first:
+      213: -272730451048619018
+    second: po-walk_18
+  - first:
+      213: -3873939644313219293
+    second: po-walk_19
+  - first:
+      213: 9114682363218525450
+    second: po-walk_20
+  - first:
+      213: 801857505314040002
+    second: po-walk_21
+  - first:
+      213: -3892047351227862575
+    second: po-walk_22
+  - first:
+      213: -612584940319575439
+    second: po-walk_23
+  - first:
+      213: 3731808217984390312
+    second: po-walk_24
+  - first:
+      213: 5585534911551948857
+    second: po-walk_25
+  - first:
+      213: 4826419123163075871
+    second: po-walk_26
+  - first:
+      213: -4591929740375490022
+    second: po-walk_27
+  - first:
+      213: 554960376500188317
+    second: po-walk_28
+  - first:
+      213: -7716115905355494536
+    second: po-walk_29
+  - first:
+      213: 7747105401690398642
+    second: po-walk_30
+  - first:
+      213: -7143670712705280090
+    second: po-walk_31
+  - first:
+      213: 2363856398327448895
+    second: po-walk_32
+  - first:
+      213: -1476992502641868445
+    second: po-walk_33
+  - first:
+      213: 3140151424562176612
+    second: po-walk_34
+  - first:
+      213: -2101929616825715598
+    second: po-walk_35
+  - first:
+      213: -3167057274876946424
+    second: po-walk_36
+  - first:
+      213: 2094779744734359122
+    second: po-walk_37
+  - first:
+      213: -3457331344543187292
+    second: po-walk_38
+  - first:
+      213: 6581087182251522739
+    second: po-walk_39
+  - first:
+      213: 5846879890182552192
+    second: po-walk_40
+  - first:
+      213: -2644844368877835407
+    second: po-walk_41
+  - first:
+      213: -1728520934733841130
+    second: po-walk_42
+  - first:
+      213: -7051534191634730005
+    second: po-walk_43
+  - first:
+      213: 3552138037719124594
+    second: po-walk_44
+  - first:
+      213: 5524795677244620767
+    second: po-walk_45
+  - first:
+      213: -7263578088448114189
+    second: po-walk_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: po-walk_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1061
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f7bdaf18aa60310800000000000000
+      internalID: 1370970611817086792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1061
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa2e1d78a0f14b00800000000000000
+      internalID: 811194014347700988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1061
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a860114344a08e0800000000000000
+      internalID: -1726492516728534463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_4
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1061
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885929ea70abd57b0800000000000000
+      internalID: -5233822649778268792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_6
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 796
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f472600097aa5760800000000000000
+      internalID: 7447449170734118134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 531
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f2ee3a9fcd718d0800000000000000
+      internalID: -2875586872297509106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_12
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 531
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d516797b6289610800000000000000
+      internalID: 1628093835255045417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_13
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 531
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa387f0cece5e2b60800000000000000
+      internalID: 7723214653080699823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 266
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f2d00d209c43240800000000000000
+      internalID: 4770658919209840501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_16
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 266
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efecdcd7fe8e11ca0800000000000000
+      internalID: -6047796709276397826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d7824515bdd7e70800000000000000
+      internalID: 9114682363218525450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c869b41725c02b00800000000000000
+      internalID: 801857505314040002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_23
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1727f7d0e39af77f0800000000000000
+      internalID: -612584940319575439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1061
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eee63e9b4775ad4b96a901ebd00bffa
+      internalID: -6911205628815859768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 796
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c8b191405b56d4e9c4bb5b9336876d
+      internalID: 553649539182541540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_7
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 796
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da41aad225b3b9e499365bccaebfb567
+      internalID: 4865372940477889766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_8
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 796
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090cdb02d85a396489dca038f165602f
+      internalID: -4753312572415777932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_9
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 796
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486ed03d2ed01b5479c3f12b8cf582c3
+      internalID: 1307972438312467823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 531
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c590f459b9d293c43ac663acd68d2e35
+      internalID: 2785442888460139456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_19
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 266
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe3a8f266536e348b0e0578d93b9916
+      internalID: -3873939644313219293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_22
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a975bce6e8344542b89021dacce1500
+      internalID: -3892047351227862575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_14
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 531
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393df519503d6824ab9e4aed024c0e50
+      internalID: 954681171888488813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_17
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 266
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2316a6b9bcde348957f02364a2ca82
+      internalID: 4990379381045238996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_18
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 266
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456b3157a723d694080d8a0d11f786a2
+      internalID: -272730451048619018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: po-walk_24
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1
+        width: 188
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bcd16985f15c44c9429cab651bc2e7
+      internalID: 1541673921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5aa435cb8869db44cab7c78c0bbe2a1b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":188.0,"y":219.0},"gridSpriteOffset":{"x":16.0,"y":0.0},"gridSpritePadding":{"x":81.0,"y":46.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      po-walk_0: 1370970611817086792
+      po-walk_1: 811194014347700988
+      po-walk_10: 2785442888460139456
+      po-walk_11: -2875586872297509106
+      po-walk_12: 1628093835255045417
+      po-walk_13: 7723214653080699823
+      po-walk_14: 954681171888488813
+      po-walk_15: 4770658919209840501
+      po-walk_16: -6047796709276397826
+      po-walk_17: 4990379381045238996
+      po-walk_18: -272730451048619018
+      po-walk_19: -3873939644313219293
+      po-walk_2: -1726492516728534463
+      po-walk_20: 9114682363218525450
+      po-walk_21: 801857505314040002
+      po-walk_22: -3892047351227862575
+      po-walk_23: -612584940319575439
+      po-walk_24: 1541673921
+      po-walk_3: -6911205628815859768
+      po-walk_4: -5233822649778268792
+      po-walk_5: 553649539182541540
+      po-walk_6: 7447449170734118134
+      po-walk_7: 4865372940477889766
+      po-walk_8: -4753312572415777932
+      po-walk_9: 1307972438312467823
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
