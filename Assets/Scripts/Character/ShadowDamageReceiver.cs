@@ -7,73 +7,23 @@ public class ShadowDamageReceiver : MonoBehaviour
     [SerializeField]
     private CharacterHealth characterHealth;
 
-    [Header("Daño enemigo")]
+    [Header("Daño")]
     [SerializeField]
     [Min(0f)]
-    private float damagePerHit = 15f;
+    private float damagePerHit = 10f;
 
     [SerializeField]
-    [Min(0f)]
-    private float hitCooldown = 0.75f;
+    [Min(0.05f)]
+    private float damageInterval = 0.75f;
 
     [SerializeField]
     private string enemyTag = "Enemy";
 
     [Header("Debug")]
     [SerializeField]
-    private bool showDebugLogs;
+    private bool showDebugLogs = true;
 
-    private float nextAllowedHitTime;
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        TryReceiveDamage(collision.collider);
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        TryReceiveDamage(other);
-    }
-
-    private void TryReceiveDamage(Collider2D other)
-    {
-        if (
-            other == null ||
-            characterHealth == null ||
-            Time.time < nextAllowedHitTime
-        )
-        {
-            return;
-        }
-
-        GameObject hitObject = other.gameObject;
-
-        bool isEnemy =
-            hitObject.CompareTag(enemyTag) ||
-            hitObject.transform.root.CompareTag(enemyTag);
-
-        if (!isEnemy)
-        {
-            return;
-        }
-
-        nextAllowedHitTime =
-            Time.time + hitCooldown;
-
-        characterHealth.ConsumeLife(
-            damagePerHit
-        );
-
-        if (showDebugLogs)
-        {
-            Debug.Log(
-                $"[ShadowDamageReceiver:{name}] " +
-                $"Daño recibido: {damagePerHit}. " +
-                $"Vida restante: {characterHealth.CurrentLife}.",
-                this
-            );
-        }
-    }
+    private float nextDamageTime;
 
     private void Awake()
     {
@@ -82,6 +32,101 @@ public class ShadowDamageReceiver : MonoBehaviour
             Debug.LogError(
                 "[ShadowDamageReceiver] " +
                 "Falta asignar CharacterHealth.",
+                this
+            );
+        }
+    }
+
+    private void OnCollisionEnter2D(
+        Collision2D collision
+    )
+    {
+        if (showDebugLogs)
+        {
+            Debug.Log(
+                $"[Eco] CollisionEnter con " +
+                $"{collision.gameObject.name}, " +
+                $"tag {collision.gameObject.tag}",
+                this
+            );
+        }
+
+        TryReceiveDamage(
+            collision.collider
+        );
+    }
+
+    private void OnCollisionStay2D(
+        Collision2D collision
+    )
+    {
+        TryReceiveDamage(
+            collision.collider
+        );
+    }
+
+    private void OnTriggerEnter2D(
+        Collider2D other
+    )
+    {
+        if (showDebugLogs)
+        {
+            Debug.Log(
+                $"[Eco] TriggerEnter con " +
+                $"{other.name}, tag {other.tag}",
+                this
+            );
+        }
+
+        TryReceiveDamage(other);
+    }
+
+    private void OnTriggerStay2D(
+        Collider2D other
+    )
+    {
+        TryReceiveDamage(other);
+    }
+
+    private void TryReceiveDamage(
+        Collider2D other
+    )
+    {
+        if (
+            other == null ||
+            characterHealth == null
+        )
+        {
+            return;
+        }
+
+        bool isEnemy =
+            other.CompareTag(enemyTag) ||
+            other.transform.root.CompareTag(enemyTag);
+
+        if (!isEnemy)
+        {
+            return;
+        }
+
+        if (Time.time < nextDamageTime)
+        {
+            return;
+        }
+
+        nextDamageTime =
+            Time.time + damageInterval;
+
+        characterHealth.ConsumeLife(
+            damagePerHit
+        );
+
+        if (showDebugLogs)
+        {
+            Debug.Log(
+                $"[Eco] Recibió {damagePerHit} " +
+                $"de daño. Vida restante: " +
+                $"{characterHealth.CurrentLife}",
                 this
             );
         }
