@@ -345,7 +345,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6232070856986341267}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a4701bbb19e0d5438ff48f9570a4b7e, type: 3}
   m_Name: 
@@ -369,4 +369,4 @@ MonoBehaviour:
   groundCheckRadius: 0.18
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64

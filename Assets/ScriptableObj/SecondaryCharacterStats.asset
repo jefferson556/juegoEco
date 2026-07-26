@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
   walkSpeed: 5
   runSpeed: 8
-  jumpForce: 11
+  jumpForce: 5

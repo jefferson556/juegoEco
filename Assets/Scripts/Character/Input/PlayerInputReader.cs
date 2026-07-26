@@ -59,12 +59,12 @@ public class PlayerInputReader : MonoBehaviour
             )
         )
         {
-            Debug.Log(
+            /*Debug.Log(
                 $"[PlayerInputReader:{name}] " +
                 $"Horizontal={horizontal}, " +
                 $"Running={isRunning}",
                 this
-            );
+            );*/
 
             lastHorizontal = horizontal;
             lastRunning = isRunning;
