@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 4845ef82ce30c65418a651f582978746
-=======
-guid: c4fd0061dec560b4eb19bbc2fdc77d64
->>>>>>> 28547c08bc7233c865f1899b90db3578d7f8e679
+guid: e5aaf8a5ea9019b4a81732710e18e123
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8904590321267157233
-    second: FONDO_LEVEL-DOS_PRIMERA_0
+      213: -5990481838232061151
+    second: fondo1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,27 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-=======
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> 28547c08bc7233c865f1899b90db3578d7f8e679
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FONDO_LEVEL-DOS_PRIMERA_0
+      name: fondo1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -135,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f8a289f7b5739b70800000000000000
-      internalID: 8904590321267157233
+      spriteID: 12bbfbec1888ddca0800000000000000
+      internalID: -5990481838232061151
       vertices: []
       indices: 
       edges: []
@@ -155,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FONDO_LEVEL-DOS_PRIMERA_0: 8904590321267157233
+      fondo1_0: -5990481838232061151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
