@@ -250,7 +250,8 @@ MonoBehaviour:
   fadeDuration: 1.5
   typingSpeed: 0.05
   delayBetweenTexts: 3
-  nextSceneName: Nivel1
+  skipFadeDuration: 0.35
+  nextSceneName: Nivel1 1-modificada
 --- !u!4 &746965948
 Transform:
   m_ObjectHideFlags: 0
