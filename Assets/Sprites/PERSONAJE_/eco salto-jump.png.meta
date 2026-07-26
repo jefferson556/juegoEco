@@ -1,85 +1,82 @@
 fileFormatVersion: 2
-guid: c2498f02e467d734491702188e0f63eb
+guid: 24b797a1aed8d074583812baa1514627
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7972050411628074690
-    second: eco_ataque_0
+      213: -8228434015758376354
+    second: eco salto-jump_0
   - first:
-      213: -4308519279259825123
-    second: eco_ataque_1
+      213: -172523248998308394
+    second: eco salto-jump_1
   - first:
-      213: 2988821909842703088
-    second: eco_ataque_2
+      213: -124839578290789720
+    second: eco salto-jump_2
   - first:
-      213: -7756868924198366288
-    second: eco_ataque_3
+      213: -1476287191947188112
+    second: eco salto-jump_3
   - first:
-      213: -6872489315983815804
-    second: eco_ataque_4
+      213: 2822882346280881888
+    second: eco salto-jump_4
   - first:
-      213: 4591554372079706784
-    second: eco_ataque_5
+      213: -2607813342768578497
+    second: eco salto-jump_5
   - first:
-      213: -5275071418524436133
-    second: eco_ataque_6
+      213: 5713848480280789865
+    second: eco salto-jump_6
   - first:
-      213: -3205839273868889369
-    second: eco_ataque_7
+      213: 611293091314298481
+    second: eco salto-jump_7
   - first:
-      213: 290614873372918029
-    second: eco_ataque_8
+      213: 122735593513319369
+    second: eco salto-jump_8
   - first:
-      213: 7719730374708492204
-    second: eco_ataque_9
+      213: 3809554130899496473
+    second: eco salto-jump_9
   - first:
-      213: 3579326532923865374
-    second: eco_ataque_10
+      213: 7193292119218469561
+    second: eco salto-jump_10
   - first:
-      213: -2604706007177702483
-    second: eco_ataque_11
+      213: 20714895425989461
+    second: eco salto-jump_11
   - first:
-      213: -7856022330141662251
-    second: eco_ataque_12
+      213: -3351325130845465531
+    second: eco salto-jump_12
   - first:
-      213: -6710474912539453275
-    second: eco_ataque_13
+      213: -4443934618297801395
+    second: eco salto-jump_13
   - first:
-      213: -3642122545385244952
-    second: eco_ataque_14
+      213: 1647462393691555776
+    second: eco salto-jump_14
   - first:
-      213: 6937831615238175096
-    second: eco_ataque_15
+      213: 1951188896923421890
+    second: eco salto-jump_15
   - first:
-      213: -5026462023586633537
-    second: eco_ataque_16
+      213: 7263749616798254853
+    second: eco salto-jump_16
   - first:
-      213: -2225330915003170989
-    second: eco_ataque_17
+      213: -1801955935055384678
+    second: eco salto-jump_17
   - first:
-      213: -7296451890391322980
-    second: eco_ataque_18
+      213: 7349950805077376767
+    second: eco salto-jump_18
   - first:
-      213: 3207056500099530538
-    second: eco_ataque_19
+      213: 5789166068805384477
+    second: eco salto-jump_19
   - first:
-      213: -8861874130496510631
-    second: eco_ataque_20
+      213: 4364728229672642377
+    second: eco salto-jump_20
   - first:
-      213: 4194736984094328074
-    second: eco_ataque_21
+      213: -7671120707031063228
+    second: eco salto-jump_21
   - first:
-      213: 2337840596291160432
-    second: eco_ataque_22
+      213: 8924976926457698126
+    second: eco salto-jump_22
   - first:
-      213: -1167795396429887599
-    second: eco_ataque_23
+      213: -1403185296387131477
+    second: eco salto-jump_23
   - first:
-      213: 8715494527282158051
-    second: eco_ataque_24
-  - first:
-      213: -3747090663618313907
-    second: eco_ataque_25
+      213: -6956631799964036901
+    second: eco salto-jump_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,7 +109,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -150,7 +147,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -175,474 +172,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: eco_ataque_0
+      name: eco salto-jump_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 1071
-        width: 174
-        height: 155
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e39e66b63669d5190800000000000000
-      internalID: -7972050411628074690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_1
-      rect:
-        serializedVersion: 2
-        x: 308
-        y: 1072
-        width: 174
-        height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d1ccbc30b801534c0800000000000000
-      internalID: -4308519279259825123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_2
-      rect:
-        serializedVersion: 2
-        x: 567
-        y: 1072
-        width: 177
-        height: 155
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f2341901bd6a7920800000000000000
-      internalID: 2988821909842703088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_3
-      rect:
-        serializedVersion: 2
-        x: 831
-        y: 1073
-        width: 174
-        height: 155
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b3d3e3afc01a5490800000000000000
-      internalID: -7756868924198366288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_4
-      rect:
-        serializedVersion: 2
-        x: 1093
-        y: 1073
-        width: 107
-        height: 156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48b0e1e016300a0a0800000000000000
-      internalID: -6872489315983815804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_5
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 816
-        width: 172
-        height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a2e3b2df5a78bf30800000000000000
-      internalID: 4591554372079706784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_6
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 816
-        width: 184
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b59f80e4e7e2bc6b0800000000000000
-      internalID: -5275071418524436133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_7
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 816
-        width: 187
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e27c0a6a229283d0800000000000000
-      internalID: -3205839273868889369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_8
-      rect:
-        serializedVersion: 2
-        x: 786
-        y: 816
-        width: 185
-        height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0186d500b8780400800000000000000
-      internalID: 290614873372918029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_9
-      rect:
-        serializedVersion: 2
-        x: 1058
-        y: 816
-        width: 163
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca7fa4affddf12b60800000000000000
-      internalID: 7719730374708492204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_10
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 561
-        width: 116
-        height: 190
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e19be0284825ca130800000000000000
-      internalID: 3579326532923865374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_11
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 561
-        width: 156
-        height: 194
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da3d8d1dfa93adbd0800000000000000
-      internalID: -2604706007177702483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_12
-      rect:
-        serializedVersion: 2
-        x: 569
-        y: 561
-        width: 188
-        height: 167
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d3ae50505dc9f290800000000000000
-      internalID: -7856022330141662251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_13
-      rect:
-        serializedVersion: 2
-        x: 825
-        y: 561
-        width: 191
-        height: 150
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a85ae3ee9a9fd2a0800000000000000
-      internalID: -6710474912539453275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_14
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 561
-        width: 155
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e6fedd77d4947dc0800000000000000
-      internalID: -3642122545385244952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_15
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 305
-        width: 122
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 879feb98811284060800000000000000
-      internalID: 6937831615238175096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_16
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 304
-        width: 171
-        height: 155
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb8a02fbb6b6e3ab0800000000000000
-      internalID: -5026462023586633537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_17
-      rect:
-        serializedVersion: 2
-        x: 526
-        y: 304
-        width: 187
-        height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35f7a87b2590e11e0800000000000000
-      internalID: -2225330915003170989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_18
-      rect:
-        serializedVersion: 2
-        x: 785
-        y: 304
-        width: 192
-        height: 153
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9e6f78f9abcdba90800000000000000
-      internalID: -7296451890391322980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_19
-      rect:
-        serializedVersion: 2
-        x: 1044
-        y: 304
-        width: 187
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2f3a0725e0c18c20800000000000000
-      internalID: 3207056500099530538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_20
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 48
-        width: 177
-        height: 156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 95528873e6c440580800000000000000
-      internalID: -8861874130496510631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: eco_ataque_21
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 48
-        width: 180
+        x: 71
+        y: 1079
+        width: 108
         height: 169
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -652,19 +187,261 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a05c227ff03b63a30800000000000000
-      internalID: 4194736984094328074
+      spriteID: e522bf8dbdabecd80800000000000000
+      internalID: -8228434015758376354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eco_ataque_22
+      name: eco salto-jump_1
       rect:
         serializedVersion: 2
-        x: 568
-        y: 48
-        width: 147
+        x: 327
+        y: 1080
+        width: 109
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5a5f3e4031b9df0800000000000000
+      internalID: -172523248998308394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_2
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1086
+        width: 113
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a26112a01b744ef0800000000000000
+      internalID: -124839578290789720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_3
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1090
+        width: 119
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0786781ee9c238be0800000000000000
+      internalID: -1476287191947188112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_4
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1090
+        width: 128
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee0bc4a984ec2720800000000000000
+      internalID: 2822882346280881888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 827
+        width: 135
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3041cfd49f2fcbd0800000000000000
+      internalID: -2607813342768578497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 809
+        width: 142
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963ca876beaab4f40800000000000000
+      internalID: 5713848480280789865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_7
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 785
+        width: 151
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e6079e3dfbb7800800000000000000
+      internalID: 611293091314298481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_8
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 784
+        width: 156
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb78ac3f5b04b100800000000000000
+      internalID: 122735593513319369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_9
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 784
+        width: 148
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ee2e45c414ed430800000000000000
+      internalID: 3809554130899496473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 529
+        width: 137
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba32ab1215b3d360800000000000000
+      internalID: 7193292119218469561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_11
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 539
+        width: 126
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bec6f6618994000800000000000000
+      internalID: 20714895425989461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_12
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 557
+        width: 109
         height: 177
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -674,20 +451,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0790c6bc2ada17020800000000000000
-      internalID: 2337840596291160432
+      spriteID: 544dd11bc83bd71d0800000000000000
+      internalID: -3351325130845465531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eco_ataque_23
+      name: eco salto-jump_13
       rect:
         serializedVersion: 2
-        x: 831
-        y: 48
-        width: 153
-        height: 150
+        x: 838
+        y: 568
+        width: 108
+        height: 173
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -696,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 197c57136482bcfe0800000000000000
-      internalID: -1167795396429887599
+      spriteID: d456c477209f352c0800000000000000
+      internalID: -4443934618297801395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: eco_ataque_25
+      name: eco salto-jump_14
       rect:
         serializedVersion: 2
-        x: 1078
-        y: 48
-        width: 167
-        height: 150
+        x: 1094
+        y: 576
+        width: 111
+        height: 168
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -718,8 +495,228 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4109d5f4e8affbc0800000000000000
-      internalID: -3747090663618313907
+      spriteID: 0c7ccc48156fcd610800000000000000
+      internalID: 1647462393691555776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 325
+        width: 120
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc8ec2c6f3041b10800000000000000
+      internalID: 1951188896923421890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_16
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 328
+        width: 129
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507c3ae9ac50ec460800000000000000
+      internalID: 7263749616798254853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_17
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 324
+        width: 138
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fed1ecf9a2ef6e0800000000000000
+      internalID: -1801955935055384678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_18
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 311
+        width: 145
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffebb35c055400660800000000000000
+      internalID: 7349950805077376767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_19
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 291
+        width: 151
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19b3e40edf375050800000000000000
+      internalID: 5789166068805384477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 16
+        width: 156
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947e1c61331a29c30800000000000000
+      internalID: 4364728229672642377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_21
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 16
+        width: 156
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445254c3c54ba8590800000000000000
+      internalID: -7671120707031063228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_22
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 16
+        width: 147
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4791126a33ebdb70800000000000000
+      internalID: 8924976926457698126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_23
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 16
+        width: 138
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba73bc64862e68ce0800000000000000
+      internalID: -1403185296387131477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eco salto-jump_24
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 16
+        width: 138
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd015f95c34157f90800000000000000
+      internalID: -6956631799964036901
       vertices: []
       indices: 
       edges: []
@@ -728,7 +725,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 86102902f4cb95542894ed7fc36d11d7
+    spriteID: 8b48cc659f8f8654fa584d2ac96b8bea
     internalID: 0
     vertices: []
     indices: 
@@ -736,34 +733,35 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      eco_ataque_0: -7972050411628074690
-      eco_ataque_1: -4308519279259825123
-      eco_ataque_10: 3579326532923865374
-      eco_ataque_11: -2604706007177702483
-      eco_ataque_12: -7856022330141662251
-      eco_ataque_13: -6710474912539453275
-      eco_ataque_14: -3642122545385244952
-      eco_ataque_15: 6937831615238175096
-      eco_ataque_16: -5026462023586633537
-      eco_ataque_17: -2225330915003170989
-      eco_ataque_18: -7296451890391322980
-      eco_ataque_19: 3207056500099530538
-      eco_ataque_2: 2988821909842703088
-      eco_ataque_20: -8861874130496510631
-      eco_ataque_21: 4194736984094328074
-      eco_ataque_22: 2337840596291160432
-      eco_ataque_23: -1167795396429887599
-      eco_ataque_24: 8715494527282158051
-      eco_ataque_25: -3747090663618313907
-      eco_ataque_3: -7756868924198366288
-      eco_ataque_4: -6872489315983815804
-      eco_ataque_5: 4591554372079706784
-      eco_ataque_6: -5275071418524436133
-      eco_ataque_7: -3205839273868889369
-      eco_ataque_8: 290614873372918029
-      eco_ataque_9: 7719730374708492204
+      eco salto-jump_0: -8228434015758376354
+      eco salto-jump_1: -172523248998308394
+      eco salto-jump_10: 7193292119218469561
+      eco salto-jump_11: 20714895425989461
+      eco salto-jump_12: -3351325130845465531
+      eco salto-jump_13: -4443934618297801395
+      eco salto-jump_14: 1647462393691555776
+      eco salto-jump_15: 1951188896923421890
+      eco salto-jump_16: 7263749616798254853
+      eco salto-jump_17: -1801955935055384678
+      eco salto-jump_18: 7349950805077376767
+      eco salto-jump_19: 5789166068805384477
+      eco salto-jump_2: -124839578290789720
+      eco salto-jump_20: 4364728229672642377
+      eco salto-jump_21: -7671120707031063228
+      eco salto-jump_22: 8924976926457698126
+      eco salto-jump_23: -1403185296387131477
+      eco salto-jump_24: -6956631799964036901
+      eco salto-jump_3: -1476287191947188112
+      eco salto-jump_4: 2822882346280881888
+      eco salto-jump_5: -2607813342768578497
+      eco salto-jump_6: 5713848480280789865
+      eco salto-jump_7: 611293091314298481
+      eco salto-jump_8: 122735593513319369
+      eco salto-jump_9: 3809554130899496473
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
