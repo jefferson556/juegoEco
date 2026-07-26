@@ -7,54 +7,76 @@ public class PlayerInputReader : MonoBehaviour
     [SerializeField]
     private bool inputEnabled = true;
 
+    [SerializeField]
+    private bool showDebugLogs = true;
+
     private CharacterController2D characterController;
+
+    private float lastHorizontal = float.NaN;
+    private bool lastRunning;
 
     private void Awake()
     {
         characterController =
             GetComponent<CharacterController2D>();
 
-        if (characterController == null)
-        {
-            Debug.LogError(
-                "No se encontró CharacterController2D.",
-                this
-            );
-        }
+        Debug.Log(
+            $"[PlayerInputReader] Awake. " +
+            $"Controller encontrado: {characterController != null}",
+            this
+        );
     }
 
     private void Update()
     {
-        if (
-            !inputEnabled ||
-            characterController == null
-        )
+        if (!inputEnabled)
         {
             return;
         }
 
-        ReadMovement();
-        ReadJump();
-    }
-
-    private void ReadMovement()
-    {
         float horizontal =
             Input.GetAxisRaw("Horizontal");
 
         bool isRunning =
             Input.GetKey(KeyCode.LeftShift);
 
+        if (
+            showDebugLogs &&
+            (
+                !Mathf.Approximately(
+                    horizontal,
+                    lastHorizontal
+                ) ||
+                isRunning != lastRunning
+            )
+        )
+        {
+           /* Debug.Log(
+                $"[PlayerInputReader] " +
+                $"Horizontal: {horizontal}, " +
+                $"Running: {isRunning}",
+                this
+            );
+           */
+            lastHorizontal = horizontal;
+            lastRunning = isRunning;
+        }
+
         characterController.Move(
             horizontal,
             isRunning
         );
-    }
 
-    private void ReadJump()
-    {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            if (showDebugLogs)
+            {
+                Debug.Log(
+                    "[PlayerInputReader] Salto presionado.",
+                    this
+                );
+            }
+
             characterController.Jump();
         }
     }
@@ -64,15 +86,22 @@ public class PlayerInputReader : MonoBehaviour
         inputEnabled = true;
 
         characterController?.EnableControl();
+
+        Debug.Log(
+            "[PlayerInputReader] Input habilitado.",
+            this
+        );
     }
 
     public void DisableInput()
     {
         inputEnabled = false;
 
-        // Solo detiene la orden manual actual.
-        // No desactiva CharacterMovement porque
-        // la cinemática debe seguir moviéndolo.
         characterController?.Stop();
+
+        Debug.Log(
+            "[PlayerInputReader] Input deshabilitado.",
+            this
+        );
     }
 }
