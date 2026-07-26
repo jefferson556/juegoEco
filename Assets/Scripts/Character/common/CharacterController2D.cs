@@ -1,34 +1,117 @@
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterMovement))]
+[RequireComponent(typeof(CharacterJump))]
 public class CharacterController2D : MonoBehaviour
 {
     private CharacterMovement movement;
-
-    public CharacterMovement Movement => movement;
+    private CharacterJump jump;
 
     private void Awake()
     {
-        movement = GetComponent<CharacterMovement>();
+        FindComponents();
     }
 
-    public void Move(float direction, bool run = false)
+    public void Move(
+        float direction,
+        bool run = false
+    )
     {
-        movement.SetHorizontalMovement(direction, run);
+        FindComponents();
+
+        if (movement == null)
+        {
+            return;
+        }
+
+        movement.SetHorizontalMovement(
+            direction,
+            run
+        );
+    }
+
+    public void Jump()
+    {
+        FindComponents();
+
+        if (jump == null)
+        {
+            return;
+        }
+
+        jump.TryJump();
     }
 
     public void Stop()
     {
+        FindComponents();
+
+        if (movement == null)
+        {
+            return;
+        }
+
         movement.Stop();
     }
 
     public void EnableControl()
     {
-        movement.SetMovementEnabled(true);
+        FindComponents();
+
+        if (movement != null)
+        {
+            movement.SetMovementEnabled(true);
+        }
+
+        if (jump != null)
+        {
+            jump.SetJumpEnabled(true);
+        }
     }
 
     public void DisableControl()
     {
-        movement.SetMovementEnabled(false);
+        FindComponents();
+
+        if (movement != null)
+        {
+            movement.SetMovementEnabled(false);
+        }
+
+        if (jump != null)
+        {
+            jump.SetJumpEnabled(false);
+        }
+    }
+
+    private void FindComponents()
+    {
+        if (movement == null)
+        {
+            movement =
+                GetComponent<CharacterMovement>();
+        }
+
+        if (jump == null)
+        {
+            jump =
+                GetComponent<CharacterJump>();
+        }
+
+        if (movement == null)
+        {
+            Debug.LogError(
+                "No se encontró CharacterMovement.",
+                this
+            );
+        }
+
+        if (jump == null)
+        {
+            Debug.LogError(
+                "No se encontró CharacterJump.",
+                this
+            );
+        }
     }
 }
