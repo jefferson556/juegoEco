@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0145b1c4d9c79f4daf65c48be6df19e, type: 3}
   m_Name: SecondaryCharacterStats
   m_EditorClassIdentifier: Assembly-CSharp::CharacterStats
-  walkSpeed: 5
+  walkSpeed: 6
   runSpeed: 8
-  jumpForce: 5
+  jumpForce: 7

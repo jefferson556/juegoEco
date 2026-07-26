@@ -24,6 +24,9 @@ public class CharacterAnimation : MonoBehaviour
     [SerializeField]
     private SpriteRenderer spriteRenderer;
 
+    [SerializeField]
+    private Transform interactionPoint;
+
     private void Awake()
     {
         if (animator == null)
@@ -34,6 +37,18 @@ public class CharacterAnimation : MonoBehaviour
         if (spriteRenderer == null)
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
+        }
+
+        if (interactionPoint == null)
+        {
+            Transform foundPoint = transform.parent != null
+                ? transform.parent.Find("InteractionPoint")
+                : transform.Find("InteractionPoint");
+
+            if (foundPoint != null)
+            {
+                interactionPoint = foundPoint;
+            }
         }
     }
 
@@ -51,8 +66,18 @@ public class CharacterAnimation : MonoBehaviour
             Mathf.Abs(horizontalMovement) > 0.01f
         )
         {
-            spriteRenderer.flipX =
-                horizontalMovement < 0f;
+            bool facingLeft = horizontalMovement < 0f;
+            spriteRenderer.flipX = facingLeft;
+
+            if (interactionPoint != null)
+            {
+                Vector3 pos = interactionPoint.localPosition;
+                pos.x = facingLeft
+                    ? -Mathf.Abs(pos.x)
+                    : Mathf.Abs(pos.x);
+
+                interactionPoint.localPosition = pos;
+            }
         }
     }
 
