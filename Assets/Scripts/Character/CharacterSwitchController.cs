@@ -1,0 +1,301 @@
+using System.Collections;
+using UnityEngine;
+
+public class CharacterSwitchController : MonoBehaviour
+{
+    private enum ControlledCharacter
+    {
+        MainCharacter,
+        Shadow
+    }
+
+    [Header("Personaje principal")]
+    [SerializeField]
+    private GameObject mainCharacter;
+
+    [SerializeField]
+    private PlayerInputReader mainInput;
+
+    [SerializeField]
+    private CharacterAnimation mainAnimation;
+
+    [SerializeField]
+    private Transform mainInteractionPoint;
+
+    [Header("Sombra")]
+    [SerializeField]
+    private GameObject shadowCharacter;
+
+    [SerializeField]
+    private PlayerInputReader shadowInput;
+
+    [Header("Configuración del cambio")]
+    [SerializeField]
+    private KeyCode switchKey = KeyCode.Q;
+
+    [SerializeField]
+    [Min(1f)]
+    private float shadowControlDuration = 30f;
+
+    [SerializeField]
+    private bool allowEarlyReturn = true;
+
+    [Header("Debug")]
+    [SerializeField]
+    private bool showDebugLogs = true;
+
+    private ControlledCharacter controlledCharacter;
+    private Coroutine shadowTimerCoroutine;
+
+    public bool IsControllingShadow =>
+        controlledCharacter == ControlledCharacter.Shadow;
+
+    public float RemainingTime { get; private set; }
+
+    private void Awake()
+    {
+        ValidateReferences();
+    }
+
+    private void Start()
+    {
+        InitializeCharacters();
+    }
+
+    private void Update()
+    {
+        if (!Input.GetKeyDown(switchKey))
+        {
+            return;
+        }
+
+        if (IsControllingShadow)
+        {
+            if (allowEarlyReturn)
+            {
+                ReturnToMainCharacter();
+            }
+
+            return;
+        }
+
+        SwitchToShadow();
+    }
+
+    private void InitializeCharacters()
+    {
+        controlledCharacter =
+            ControlledCharacter.MainCharacter;
+
+        RemainingTime = 0f;
+
+        if (mainCharacter != null)
+        {
+            mainCharacter.SetActive(true);
+        }
+
+        if (mainAnimation != null)
+        {
+            mainAnimation.SetCrouching(false);
+        }
+
+        if (mainInput != null)
+        {
+            mainInput.EnableInput();
+        }
+
+        if (shadowInput != null)
+        {
+            shadowInput.DisableInput();
+        }
+
+        if (shadowCharacter != null)
+        {
+            shadowCharacter.SetActive(false);
+        }
+
+        Log("Sistema iniciado. Control: personaje principal.");
+    }
+
+    public void SwitchToShadow()
+    {
+        if (IsControllingShadow)
+        {
+            return;
+        }
+
+        if (
+            mainInput == null ||
+            mainAnimation == null ||
+            mainInteractionPoint == null ||
+            shadowCharacter == null ||
+            shadowInput == null
+        )
+        {
+            Debug.LogError(
+                "[CharacterSwitchController] " +
+                "No se puede cambiar a la sombra: " +
+                "faltan referencias.",
+                this
+            );
+
+            return;
+        }
+
+        controlledCharacter =
+            ControlledCharacter.Shadow;
+
+        mainInput.DisableInput();
+        mainAnimation.SetCrouching(true);
+
+        SpawnShadow();
+
+        shadowCharacter.SetActive(true);
+        shadowInput.EnableInput();
+
+        if (shadowTimerCoroutine != null)
+        {
+            StopCoroutine(shadowTimerCoroutine);
+        }
+
+        shadowTimerCoroutine =
+            StartCoroutine(ShadowControlTimer());
+
+        Log("Control cambiado a la sombra.");
+    }
+
+    public void ReturnToMainCharacter()
+    {
+        if (!IsControllingShadow)
+        {
+            return;
+        }
+
+        if (shadowTimerCoroutine != null)
+        {
+            StopCoroutine(shadowTimerCoroutine);
+            shadowTimerCoroutine = null;
+        }
+
+        controlledCharacter =
+            ControlledCharacter.MainCharacter;
+
+        RemainingTime = 0f;
+
+        if (shadowInput != null)
+        {
+            shadowInput.DisableInput();
+        }
+
+        if (shadowCharacter != null)
+        {
+            shadowCharacter.SetActive(false);
+        }
+
+        if (mainAnimation != null)
+        {
+            mainAnimation.SetCrouching(false);
+            mainAnimation.SetIdle();
+        }
+
+        if (mainInput != null)
+        {
+            mainInput.EnableInput();
+        }
+
+        Log("Control devuelto al personaje principal.");
+    }
+
+    private void SpawnShadow()
+    {
+        Transform shadowTransform =
+            shadowCharacter.transform;
+
+        shadowTransform.position =
+            mainInteractionPoint.position;
+
+        shadowTransform.rotation =
+            Quaternion.identity;
+    }
+
+    private IEnumerator ShadowControlTimer()
+    {
+        RemainingTime = shadowControlDuration;
+
+        while (RemainingTime > 0f)
+        {
+            RemainingTime -= Time.deltaTime;
+
+            yield return null;
+        }
+
+        RemainingTime = 0f;
+        shadowTimerCoroutine = null;
+
+        ReturnToMainCharacter();
+    }
+
+    private void ValidateReferences()
+    {
+        if (mainCharacter == null)
+        {
+            Debug.LogError(
+                "Falta asignar Main Character.",
+                this
+            );
+        }
+
+        if (mainInput == null)
+        {
+            Debug.LogError(
+                "Falta asignar Main Input.",
+                this
+            );
+        }
+
+        if (mainAnimation == null)
+        {
+            Debug.LogError(
+                "Falta asignar Main Animation.",
+                this
+            );
+        }
+
+        if (mainInteractionPoint == null)
+        {
+            Debug.LogError(
+                "Falta asignar Main Interaction Point.",
+                this
+            );
+        }
+
+        if (shadowCharacter == null)
+        {
+            Debug.LogError(
+                "Falta asignar Shadow Character.",
+                this
+            );
+        }
+
+        if (shadowInput == null)
+        {
+            Debug.LogError(
+                "Falta asignar Shadow Input.",
+                this
+            );
+        }
+    }
+
+    private void Log(string message)
+    {
+        if (!showDebugLogs)
+        {
+            return;
+        }
+
+        Debug.Log(
+            $"[CharacterSwitchController] {message}",
+            this
+        );
+    }
+}
