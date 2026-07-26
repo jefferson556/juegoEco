@@ -2918,16 +2918,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 080c2927688d2d44ebff52919199761d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InterfazJugador
-  rellenoVida: {fileID: 1662028855}
-  rellenoCorrupcion: {fileID: 679712741}
-  textoCristales: {fileID: 95322420}
-  textoTiempo: {fileID: 0}
-  vidaMaxima: 100
-  vidaActual: 100
-  corrupcionMaxima: 100
-  corrupcionActual: 0
-  cristales: 0
-  tiempoRestante: 90
 --- !u!1 &679712739
 GameObject:
   m_ObjectHideFlags: 0

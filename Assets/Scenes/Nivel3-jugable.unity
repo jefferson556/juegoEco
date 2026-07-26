@@ -775,16 +775,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 080c2927688d2d44ebff52919199761d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InterfazJugador
-  rellenoVida: {fileID: 573514076}
-  rellenoCorrupcion: {fileID: 1166877142}
-  textoCristales: {fileID: 2146166991}
-  textoTiempo: {fileID: 0}
-  vidaMaxima: 100
-  vidaActual: 100
-  corrupcionMaxima: 100
-  corrupcionActual: 0
-  cristales: 0
-  tiempoRestante: 90
 --- !u!1 &1081583326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,6 +1524,63 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 27.521679, y: 0.56147766}
   m_EdgeRadius: 0
+--- !u!1001 &1949647436
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936003783206843351, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577159521601831250, guid: 1ae486519755571479b788da6dc880f6, type: 3}
+      propertyPath: m_Name
+      value: EnemigoFacilPatrulla
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ae486519755571479b788da6dc880f6, type: 3}
 --- !u!1 &2129524045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,3 +1805,4 @@ SceneRoots:
   - {fileID: 1200215758}
   - {fileID: 179686714}
   - {fileID: 596216102}
+  - {fileID: 1949647436}
