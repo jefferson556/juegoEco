@@ -19,11 +19,23 @@ public class ShadowDamageReceiver : MonoBehaviour
     [SerializeField]
     private string enemyTag = "Enemy";
 
+    [Header("Contacto con Personaje Principal")]
+    [SerializeField]
+    private bool touchPlayerGameOver = true;
+
+    [SerializeField]
+    private string playerTag = "Player";
+
+    [SerializeField]
+    [Min(0f)]
+    private float spawnGracePeriod = 0.4f;
+
     [Header("Debug")]
     [SerializeField]
     private bool showDebugLogs = true;
 
     private float nextDamageTime;
+    private float enableTime;
 
     private void Awake()
     {
@@ -35,6 +47,11 @@ public class ShadowDamageReceiver : MonoBehaviour
                 this
             );
         }
+    }
+
+    private void OnEnable()
+    {
+        enableTime = Time.time;
     }
 
     private void OnCollisionEnter2D(
@@ -51,18 +68,16 @@ public class ShadowDamageReceiver : MonoBehaviour
             );
         }
 
-        TryReceiveDamage(
-            collision.collider
-        );
+        TryCheckPlayerTouch(collision.collider);
+        TryReceiveDamage(collision.collider);
     }
 
     private void OnCollisionStay2D(
         Collision2D collision
     )
     {
-        TryReceiveDamage(
-            collision.collider
-        );
+        TryCheckPlayerTouch(collision.collider);
+        TryReceiveDamage(collision.collider);
     }
 
     private void OnTriggerEnter2D(
@@ -78,6 +93,7 @@ public class ShadowDamageReceiver : MonoBehaviour
             );
         }
 
+        TryCheckPlayerTouch(other);
         TryReceiveDamage(other);
     }
 
@@ -85,7 +101,38 @@ public class ShadowDamageReceiver : MonoBehaviour
         Collider2D other
     )
     {
+        TryCheckPlayerTouch(other);
         TryReceiveDamage(other);
+    }
+
+    private void TryCheckPlayerTouch(Collider2D other)
+    {
+        if (!touchPlayerGameOver || other == null || characterHealth == null)
+        {
+            return;
+        }
+
+        if (Time.time < enableTime + spawnGracePeriod)
+        {
+            return;
+        }
+
+        bool isPlayer =
+            other.CompareTag(playerTag) ||
+            other.transform.root.CompareTag(playerTag);
+
+        if (isPlayer)
+        {
+            if (showDebugLogs)
+            {
+                Debug.Log(
+                    $"[ShadowDamageReceiver] ¡LA SOMBRA TOCÓ AL PERSONAJE PRINCIPAL! Game Over instantáneo.",
+                    this
+                );
+            }
+
+            characterHealth.ConsumeLife(characterHealth.CurrentLife);
+        }
     }
 
     private void TryReceiveDamage(
