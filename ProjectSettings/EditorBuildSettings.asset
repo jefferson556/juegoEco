@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: "Assets/Scenes/EntradaSue\xF1o.unity"
+    guid: 93b0c6232c2c6e243b296029f1cf17c3
+  - enabled: 1
+    path: Assets/Scenes/Nivel1 1-modificada.unity
+    guid: da52aa8c1ce091d499fc0cbdb3f1016a
+  - enabled: 1
+    path: Assets/Scenes/Nivel2-jugable.unity
+    guid: 9b6630d369f041a4898f7484e210fff9
   m_configObjects: {}

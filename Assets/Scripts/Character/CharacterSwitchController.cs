@@ -48,12 +48,27 @@ public class CharacterSwitchController : MonoBehaviour
     [Min(0f)]
     private float lifeDrainPerSecond = 3.34f;
 
+    [Header("Restricción de Invocar Sombra")]
+    [SerializeField]
+    [Range(0.01f, 0.5f)]
+    private float minLifeNormalizedToSummon = 0.10f;
+
+    [SerializeField]
+    private TMPro.TMP_Text textoMensajeUI;
+
+    [SerializeField]
+    private string mensajeNoEco = "No puedo llamar a Eco, debo intentar salir solo.";
+
+    [SerializeField]
+    private float tiempoMostrarMensaje = 3.5f;
+
     [Header("Debug")]
     [SerializeField]
     private bool showDebugLogs = true;
 
     private ControlledCharacter controlledCharacter;
     private Coroutine shadowTimerCoroutine;
+    private Coroutine mensajeCoroutine;
 
     public bool IsControllingShadow =>
         controlledCharacter == ControlledCharacter.Shadow;
@@ -63,6 +78,11 @@ public class CharacterSwitchController : MonoBehaviour
     private void Awake()
     {
         ValidateReferences();
+
+        if (textoMensajeUI != null)
+        {
+            textoMensajeUI.gameObject.SetActive(false);
+        }
     }
 
     private void Start()
@@ -138,13 +158,20 @@ public class CharacterSwitchController : MonoBehaviour
             return;
         }
 
-        if (
-            characterHealth != null &&
-            !characterHealth.HasLife
-        )
+        if (characterHealth != null)
         {
-            Log("No se puede usar la sombra: no queda vida.");
-            return;
+            if (!characterHealth.HasLife)
+            {
+                Log("No se puede usar la sombra: no queda vida.");
+                return;
+            }
+
+            if (characterHealth.NormalizedLife <= minLifeNormalizedToSummon)
+            {
+                MostrarMensajeRestriccion();
+                Log("Invocación bloqueada: Vida menor o igual al 10%.");
+                return;
+            }
         }
 
         if (
@@ -332,6 +359,32 @@ public class CharacterSwitchController : MonoBehaviour
                 this
             );
         }
+    }
+
+    private void MostrarMensajeRestriccion()
+    {
+        Debug.Log($"[CharacterSwitchController] {mensajeNoEco}", this);
+
+        if (textoMensajeUI != null)
+        {
+            if (mensajeCoroutine != null)
+            {
+                StopCoroutine(mensajeCoroutine);
+            }
+
+            mensajeCoroutine = StartCoroutine(MostrarMensajeCoroutine());
+        }
+    }
+
+    private IEnumerator MostrarMensajeCoroutine()
+    {
+        textoMensajeUI.text = mensajeNoEco;
+        textoMensajeUI.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(tiempoMostrarMensaje);
+
+        textoMensajeUI.gameObject.SetActive(false);
+        mensajeCoroutine = null;
     }
 
     private void Log(string message)
